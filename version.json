@@ -1,0 +1,10 @@
+{
+  "name": "scm服务管理工具",
+  "about": "create by chusen.tech",
+  "versions":[{
+    "copyright": "企业版本",
+    "version": "v1.0.1",
+    "name":"scm-v1.0.1.rar",
+    "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
+  }]
+}
