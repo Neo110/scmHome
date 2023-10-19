@@ -27,15 +27,18 @@
           <div class="ml-auto">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link" href="https://demo.webpixels.io/purpose-website-ui-kit-v2.0.1/pages/utility/support.html">Support</a>
+                <a class="nav-link" href="#download">下载</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#footer-main">微信群</a>
+              </li>
+              <li class="nav-item" style="display: none;">
                 <a href="#" class="nav-link" data-action="omnisearch-open" data-target="#omnisearch"><i class="far fa-search"></i></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" style="display: none;">
                 <a class="nav-link" href="https://demo.webpixels.io/purpose-website-ui-kit-v2.0.1/pages/shop/checkout-cart.html"><i class="far fa-shopping-cart"></i></a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" style="display: none;">
                 <a class="nav-link pr-0" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="far fa-user-circle"></i>
                 </a>
@@ -85,10 +88,10 @@
             <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
             </li>
-            <li class="nav-item d-lg-none d-xl-block">
+            <li class="nav-item d-lg-none d-xl-block" style="display: none;">
               <a class="nav-link" href="#" target="_blank">What's new</a>
             </li>
-            <li class="nav-item mr-0">
+            <li class="nav-item mr-0" style="display: none;">
               <a href="https://themes.getbootstrap.com/product/purpose-website-ui-kit/" target="_blank" class="nav-link d-lg-none">Purchase now</a>
               <a href="https://themes.getbootstrap.com/product/purpose-website-ui-kit/" target="_blank" class="btn btn-sm btn-white btn-icon rounded-pill d-none d-lg-inline-flex" data-toggle="tooltip" data-placement="left" title="" data-original-title="Go to Bootstrap Themes">
                 <span class="btn-inner--icon"><i class="far fa-shopping-cart"></i></span>
@@ -400,6 +403,12 @@
     <!--Window版本-Download-->
     <section class="slice bg-section-secondary">
       <div class="container">
+        <div class="mb-5 text-center">
+          <h3 class=" mt-4 text-uppercase" style="font-family: 'Oswald', sans-serif;" id="download">下载</h3>
+          <div class="fluid-paragraph mt-3">
+            <p class="lead lh-180">下载适合的版本.</p>
+          </div>
+        </div>
         <!-- Section title -->
         <div class="actions-toolbar py-2 mb-4">
           <div class="row justify-content-between align-items-center">
@@ -888,8 +897,8 @@
             </a>
             <p>Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.</p>
             <div>
-              <img src="img/scm/weixin.png" style="width: 100px;">
-              <div style="width: 100px;text-align: center;">微信用户群</div>
+              <img src="img/scm/weixin.png" style="width: 100px;border-radius: 5px;">
+              <div style="width: 100px;text-align: center;font-size: 12px;">微信用户群</div>
             </div>
           </div>
           <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
@@ -921,7 +930,7 @@
         <div class="row align-items-center justify-content-md-between py-4 mt-4 delimiter-top">
           <div class="col-md-6">
             <div class="copyright text-sm font-weight-bold text-center text-md-left">
-              © 2018-2023 <a href="https://webpixels.io/" class="font-weight-bold" target="_blank">CHUSEN tech</a>. All rights reserved.
+              © 2018-2023 <a href="https://webpixels.io/" class="font-weight-bold" target="_blank">chusen tech</a>. All rights reserved.
             </div>
           </div>
           <div class="col-md-6">
@@ -963,6 +972,11 @@
       <span class="btn-inner--icon"><i class="far fa-shopping-basket"></i></span>
     </a>
   </div> -->
+  <div class="customizer">
+    <a href="#header-main" class="nav-link btn btn-warning btn-lg btn-icon-only rounded-circle text-white hover-scale-110 shadow-lg mr-3">
+      <span class="btn-inner--icon"><i class="far fa fa-arrow-up"></i></span>
+    </a>
+  </div>
   <!-- Customizer modal -->
   <div class="modal fade fixed-right" id="modal-customizer" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-vertical" role="document">
@@ -1074,5 +1088,23 @@
     gtag('config', 'UA-104437451-1');
   </script>
 
-
+<script>
+  // 使用JavaScript添加平滑滚动动画
+  document.addEventListener("DOMContentLoaded", function() {
+    const anchorLinks = document.querySelectorAll("a.nav-link");
+  
+    anchorLinks.forEach(function(link) {
+      link.addEventListener("click", function(e) {
+        e.preventDefault(); // 阻止默认的锚点跳转行为
+  
+        const targetId = this.getAttribute("href").substring(1); // 获取目标锚点的ID
+  
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" }); // 平滑滚动
+        }
+      });
+    });
+  });
+  </script>
 </body></html>
