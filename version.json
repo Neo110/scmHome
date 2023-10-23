@@ -15,6 +15,12 @@
       "os": "windows",
       "list": [
         {
+          "label": "包含全部服务",
+          "subLabel": "all",
+          "description": "包含全部服务，包比较大。请耐心等待",
+          "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
+        },
+        {
           "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
