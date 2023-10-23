@@ -15,15 +15,15 @@
       "os": "windows",
       "list": [
         {
-          "label": "tomcat+mysql",
-          "subLabel":"11.0.+",
-          "description":"DESCRIPTION",
+          "label": "Nginx+MySQL+Redis+JDK",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8",
+          "description": "支持SpingBoot、SpringCloud分布式框架项目服务管理",
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         },
         {
-          "label": "tomcat+mysql-nginx",
-          "subLabel":"11.0.+",
-          "description":"DESCRIPTION",
+          "label": "Nginx+MySQL+MongoDB+Redis+Minio+JDK",
+          "subLabel": "1.14.2 + 5.7 + 3.6 + 4.0 + 不限 + 8",
+          "description": "支持SpingBoot、SpringCloud分布式框架项目服务管理",
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         }
       ]
