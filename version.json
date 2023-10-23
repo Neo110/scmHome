@@ -23,15 +23,6 @@
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         }
       ]
-    },
-    {
-      "os": "maocs",
-      "list": [
-        {
-          "label": "tomcat+mysql",
-          "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
-        }
-      ]
     }
   ]
 }
