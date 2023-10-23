@@ -16,10 +16,14 @@
       "list": [
         {
           "label": "tomcat+mysql",
+          "subLabel":"11.0.+",
+          "description":"DESCRIPTION",
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         },
         {
           "label": "tomcat+mysql-nginx",
+          "subLabel":"11.0.+",
+          "description":"DESCRIPTION",
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         }
       ]
