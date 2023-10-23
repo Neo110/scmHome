@@ -321,7 +321,9 @@
                     packagesHtml += "<td>";
                     packagesHtml += "  <span class='taxes text-sm mb-0'>" + list[i].description + "</span>";
                     packagesHtml += "</td> ";
-                    packagesHtml += "</tr>  ";
+                    packagesHtml += "</tr>  "
+                    if(i != list.length)
+                    packagesHtml += "<tr class='table-divider'></tr>";
                 }
                 // 将packagesHtml 替换到界面中通过id
                 document.getElementById("packages").innerHTML = packagesHtml;
