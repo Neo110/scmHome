@@ -15,15 +15,15 @@
       "os": "windows",
       "list": [
         {
-          "label": "Nginx+MySQL+Redis+JDK",
-          "subLabel": "1.14.2 + 5.7 + 4.0 + 8",
-          "description": "支持SpingBoot、SpringCloud分布式框架项目服务管理",
+          "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
+          "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         },
         {
-          "label": "Nginx+MySQL+MongoDB+Redis+Minio+JDK",
-          "subLabel": "1.14.2 + 5.7 + 3.6 + 4.0 + 不限 + 8",
-          "description": "支持SpingBoot、SpringCloud分布式框架项目服务管理",
+          "label": "Nginx+MySQL+Redis+JDK+tomcat",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
+          "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
           "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
         }
       ]
