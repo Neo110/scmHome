@@ -18,19 +18,25 @@
           "label": "包含全部服务",
           "subLabel": "all",
           "description": "包含全部服务，包比较大。请耐心等待",
-          "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
+          "url": "https://pan.baidu.com/s/1w9ZWL8KtyDNgV53QfHinaA?pwd=2i2x"
+        },
+        {
+          "label": "JDK",
+          "subLabel": "8 + 11 + 17 + 21",
+          "description": "JDK版本切换工具",
+          "url": "https://pan.baidu.com/s/12UIyTKNbAbyvw2aZTAfMoA?pwd=87ct"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
+          "url": "https://pan.baidu.com/s/1BL-iVkKOiKE99htEZltbLQ?pwd=5vce"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+tomcat",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
           "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
+          "url": "https://pan.baidu.com/s/1H73RkkXaoJZ_HK0AFRENIg?pwd=sgue"
         }
       ]
     }
