@@ -16,27 +16,27 @@
       "list": [
         {
           "label": "包含全部服务",
-          "subLabel": "all",
+          "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-屏幕水印",
           "description": "包含全部服务，包比较大。请耐心等待",
-          "url": "https://pan.baidu.com/s/1w9ZWL8KtyDNgV53QfHinaA?pwd=2i2x"
+          "url": "https://pan.baidu.com/s/14kiYFq9TTvJzkCALwAyOmg?pwd=bu5v"
         },
         {
           "label": "JDK",
           "subLabel": "8 + 11 + 17 + 21",
           "description": "JDK版本切换工具",
-          "url": "https://pan.baidu.com/s/12UIyTKNbAbyvw2aZTAfMoA?pwd=87ct"
+          "url": "https://pan.baidu.com/s/17sPs3G3B29SZ8_vMYkeqcg?pwd=nkm5"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1BL-iVkKOiKE99htEZltbLQ?pwd=5vce"
+          "url": "https://pan.baidu.com/s/1hdh3uuL9NpsUqtE3PtOs4A?pwd=24yc"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+tomcat",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
           "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1H73RkkXaoJZ_HK0AFRENIg?pwd=sgue"
+          "url": "https://pan.baidu.com/s/17sPs3G3B29SZ8_vMYkeqcg?pwd=nkm5"
         }
       ]
     }
