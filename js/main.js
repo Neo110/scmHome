@@ -313,13 +313,13 @@
                     packagesHtml += "</th>";
                     packagesHtml += " <td class='order'>";
                     packagesHtml += "  <span class='h6 text-sm font-weight-bold mb-0'>" + list[i].label + "</span>";
-                    packagesHtml += "  <span class='d-block text-sm text-muted'>" + list[i].subLabel + "</span>";
+                    packagesHtml += "  <span class='d-block text-sm text-muted text-label'>" + list[i].subLabel + "</span>";
                     packagesHtml += " </td>";
                     //   packagesHtml += " <td>";
                     //   packagesHtml += "  <span class='client'>"+list[i].version+"</span>";
                     //   packagesHtml += "</td>";
                     packagesHtml += "<td>";
-                    packagesHtml += "  <span class='taxes text-sm mb-0'>" + list[i].description + "</span>";
+                    packagesHtml += "  <span class='taxes text-sm mb-0 text-label'>" + list[i].description + "</span>";
                     packagesHtml += "</td> ";
                     packagesHtml += "</tr>  "
                     if(i != list.length)

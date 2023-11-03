@@ -26278,3 +26278,7 @@ body::-webkit-scrollbar-track {
     background: rgba(0,0,0,0.1);
 }
  
+
+.text-label{
+  white-space: pre-wrap;
+}
