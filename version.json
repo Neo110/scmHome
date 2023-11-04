@@ -5,9 +5,9 @@
     {
       "os": "windows",
       "copyright": "企业版本",
-      "version": "v1.0.4",
-      "name": "scm-v1.0.1.rar",
-      "url": "http://web.chusentech.com/scm/scm-v1.0.1.rar"
+      "version": "v1.0.5",
+      "name": "scm-v1.0.5.rar",
+      "url": "http://web.chusentech.com/scm/scm-v1.0.5.rar"
     }
   ],
   "packages": [
@@ -18,25 +18,25 @@
           "label": "包含全部服务",
           "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印",
           "description": "包含全部服务，包比较大。请耐心等待",
-          "url": "https://pan.baidu.com/s/14kiYFq9TTvJzkCALwAyOmg?pwd=bu5v"
+          "url": "https://pan.baidu.com/s/10iWyvos9XmFycBMt_cMAjA?pwd=bvti"
         },
         {
           "label": "JDK",
           "subLabel": "8 + 11 + 17 + 21",
           "description": "JDK版本切换工具",
-          "url": "https://pan.baidu.com/s/1myYajJWlyLHY4qp6hJ-joA?pwd=dvkk"
+          "url": "https://pan.baidu.com/s/1vJB_hpoKGHdIlslExvt_4A?pwd=6a87"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1hdh3uuL9NpsUqtE3PtOs4A?pwd=24yc"
+          "url": "https://pan.baidu.com/s/12njUMpor10EIQNmDMBJ8hw?pwd=rrha"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+tomcat",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
           "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/17sPs3G3B29SZ8_vMYkeqcg?pwd=nkm5"
+          "url": "https://pan.baidu.com/s/1CsFikFnS_vOH36W0XRww3w?pwd=69mc"
         }
       ]
     }
