@@ -335,6 +335,9 @@
                     window.open(url);
                 }, true);
 
+                document.getElementById("loading-container").style.display = "none";
+                // Show the content
+                document.getElementById("content").style.display = "block";
             });
     });
 
