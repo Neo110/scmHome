@@ -31,7 +31,7 @@
       "list": [
         {
           "label": "包含全部服务",
-          "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印",
+          "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印+服务守护+邮件告警",
           "description": "包含全部服务，包比较大。请耐心等待",
           "url": "https://pan.baidu.com/s/1VPq8OzXFERSCCQWbyktDrA?pwd=cszk"
         },
@@ -42,13 +42,13 @@
           "url": "https://pan.baidu.com/s/12Jv2pNj6nONetoWhatcySw?pwd=1v5j"
         },
         {
-          "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
+          "label": "Nginx+MySQL+Redis+JDK+SpringBoot+服务守护+邮件告警",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
           "url": "https://pan.baidu.com/s/1ziVb20mVkp58NIg5expVuA?pwd=efst"
         },
         {
-          "label": "Nginx+MySQL+Redis+JDK+tomcat",
+          "label": "Nginx+MySQL+Redis+JDK+tomcat+服务守护+邮件告警",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
           "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
           "url": "https://pan.baidu.com/s/1XpD_wAF9CdwWEht8VVRNFw?pwd=73wh"
