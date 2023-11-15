@@ -32,7 +32,7 @@
         {
           "label": "包含全部服务",
           "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印+服务守护+邮件告警",
-          "description": "包含全部服务，包比较大。请耐心等待",
+          "description": "包含全部服务，一键安装快速交付部署",
           "url": "https://pan.baidu.com/s/1VPq8OzXFERSCCQWbyktDrA?pwd=cszk"
         },
         {
