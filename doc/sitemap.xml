@@ -2,132 +2,137 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://scm.chusen.tech/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/autostartserver/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/changelog/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/config/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/deprecated/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://scm.chusen.tech/dingding/</loc>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/disclaimer/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/download/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/faq/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/guardserver/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/index.zh/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/install/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/issue/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/restartserver/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/roadmap/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/runing/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/startserver/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/stopserver/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/support/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/viewlog/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/windows/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/en/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/nav/en/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/nav/zh/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/zh/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/zh/download/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scm.chusen.tech/zh/manual/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
