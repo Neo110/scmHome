@@ -8215,7 +8215,7 @@ tag::before{
 
   }
   50% {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.0), transparent) var(--bg, #272d44);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), transparent) var(--bg, hsla(354, 81%, 56%, 0.727));
 
   }
   100% {
