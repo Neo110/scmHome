@@ -5,8 +5,8 @@
     {
       "os": "windows",
       "copyright": "企业版本",
-      "version": "v1.0.10",
-      "name": "scm-v1.0.10.zip",
+      "version": "v1.0.11",
+      "name": "scm-v1.0.11.zip",
       "url": "https://slink.ltd/https://github.com/Neo110/SCM/releases/download/v1.0.11/scm-v1.0.11.zip"
     }
   ],
@@ -30,28 +30,34 @@
       "os": "windows",
       "list": [
         {
+          "label": "dev自定义服务版本",
+          "subLabel": "只包含nginx服务，其他服务自动手扩展打包",
+          "description": "dev自定义版本",
+          "url": "https://pan.baidu.com/s/1iANTT4V1j-n4M__ktSTTbw?pwd=7fmc"
+        },
+        {
           "label": "包含全部服务",
           "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印+服务守护+邮件告警-crontab定制任务+钉钉推送",
           "description": "包含全部服务，一键安装快速交付部署",
-          "url": "https://pan.baidu.com/s/143QRhjLns-P5cBFlKKbJ0w?pwd=6u9h"
+          "url": "https://pan.baidu.com/s/1vfeVPeT5_PJ_6nxpds4FAA?pwd=qa2d"
         },
         {
           "label": "JDK",
           "subLabel": "8 + 11 + 17 + 21",
           "description": "JDK版本切换工具",
-          "url": "https://pan.baidu.com/s/1vnvg_dR7xnlbZvVlxXbJDw?pwd=cv3k"
+          "url": "https://pan.baidu.com/s/1Jipc_VEqWlavZzxjyIk-Hw?pwd=4icc"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+SpringBoot+服务守护+邮件告警+crontab定制任务+钉钉推送",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1idQFYfjIjQIrU3nOD88bdA?pwd=jwhe"
+          "url": "https://pan.baidu.com/s/1tchlNjRdtRgIgxCIjQ8yvw?pwd=h4qj"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+tomcat+服务守护+邮件告警+crontab定制任务+钉钉推送",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
           "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1n0CuTj7l1d_EYrzv1Zo_uw?pwd=uqd6"
+          "url": "https://pan.baidu.com/s/1fTzh_Y0suwdmotuZjuzKQA?pwd=rhg5"
         }
       ]
     }
