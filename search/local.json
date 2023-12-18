@@ -18,20 +18,20 @@
         {
             "gender": "female",
             "name": {
-                "title": "Miss",
+                "title": "MySql",
                 "first": "Luisa",
                 "last": "Fuentes"
             },
             "email": "luisa.fuentes@example.com",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/women/41.jpg",
+                "large": "https://scm.chusen.tech/search/img/MySQL.svg",
                 "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
             },
             "nat": "ES"
         },
         {
-            "gender": "male",
+            "gender": "Redis",
             "name": {
                 "title": "Mr",
                 "first": "Gabin",
@@ -39,7 +39,7 @@
             },
             "email": "gabin.leclerc@example.com",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/men/34.jpg",
+                "large": "https://scm.chusen.tech/search/img/Redis.svg",
                 "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
             },
