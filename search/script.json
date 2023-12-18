@@ -35,18 +35,18 @@
         {
             "type": "script",
             "name": {
-                "title": "Redis",
+                "title": "restart-nginx.bat",
                 "first": "Gabin",
                 "last": "Leclerc"
             },
             "email": "gabin.leclerc@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/Redis.svg",
+                "large": "https://scm.chusen.tech/search/img/sh.png",
                 "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
             },
             "nat": "FR",
-            "description":"Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。从2010年3月15日起，Redis的开发工作由VMware主持。从2013年5月开始，Redis的开发由Pivotal赞助。"
+            "description":"重启nginx服务"
         }
     ]
 }
