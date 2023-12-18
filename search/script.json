@@ -1,0 +1,49 @@
+{
+    "results": [
+        {
+            "gender": "local female",
+            "name": {
+                "title": "local Miss",
+                "first": "local Rayina",
+                "last": "local Pochinok"
+            },
+            "email": "rayina.pochinok@example.com",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/2.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/2.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
+            },
+            "nat": "UA"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Luisa",
+                "last": "Fuentes"
+            },
+            "email": "luisa.fuentes@example.com",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/41.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Gabin",
+                "last": "Leclerc"
+            },
+            "email": "gabin.leclerc@example.com",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/34.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
+            },
+            "nat": "FR"
+        }
+    ]
+}
