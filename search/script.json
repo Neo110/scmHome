@@ -9,7 +9,7 @@
             },
             "email": "rayina.pochinok@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/bat.svg",
+                "large": "https://scm.chusen.tech/search/img/bat.png",
                 "medium": "https://randomuser.me/api/portraits/med/women/2.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
             },
@@ -25,7 +25,7 @@
             },
             "email": "luisa.fuentes@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/sh.svg",
+                "large": "https://scm.chusen.tech/search/img/sh.png",
                 "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
             },
