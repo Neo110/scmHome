@@ -148,13 +148,13 @@
     /**
      * Scroll with ofset on page load with hash links in the url
      */
-    window.addEventListener('load', () => {
-        if (window.location.hash) {
-            if (select(window.location.hash)) {
-                scrollto(window.location.hash)
-            }
-        }
-    });
+    // window.addEventListener('load', () => {
+    //     if (window.location.hash) {
+    //         if (select(window.location.hash)) {
+    //             scrollto(window.location.hash)
+    //         }
+    //     }
+    // });
 
     /**
      * Clients Slider
@@ -285,18 +285,18 @@
         });
     }
 
-    window.addEventListener('hashchange', function(event) {
-        console.log(" hashchange", hashchange);
-        var hash = window.location.hash;
-        if (hash) {
-            console.log(" hash", hash);
-            var element = document.getElementById(hash);
-            if (element) {
-                console.log(" element", element);
-                element.scrollIntoView();
-            }
-        }
-    });
+    // window.addEventListener('hashchange', function(event) {
+    //     console.log(" hashchange", hashchange);
+    //     var hash = window.location.hash;
+    //     if (hash) {
+    //         console.log(" hash", hash);
+    //         var element = document.getElementById(hash);
+    //         if (element) {
+    //             console.log(" element", element);
+    //             element.scrollIntoView();
+    //         }
+    //     }
+    // });
     window.addEventListener('load', () => {
         aos_init();
         fetch('https://scm.chusen.tech/version.json')
@@ -385,6 +385,7 @@
            
                 // 将packagesHtml 替换到界面中通过id
                 document.getElementById("packages-linux").innerHTML = packagesHtml;
+
                 //添加link-button 点击后没有触发事件？
                 on('click', '.link-button', function (e) {
                     //   点击对应连接进行下载
@@ -396,17 +397,25 @@
                 document.getElementById("loading-container").style.display = "none";
                 // Show the content
                 document.getElementById("content").style.display = "block";
-                // 锚点位置不准确问题
-                // window.location.hash = window.location.hash;
-                
+ 
 
-                // 锚点位置不准确问题
-                window.location.hash = window.location.hash;
-               
             });
 
-     
+            // 引入延迟，确保在内容加载后执行滚动
+            setTimeout(function() {
+            var desiredElement = document.getElementById(window.location.hash.replace("#", ""));
+            if (desiredElement) {
+                desiredElement.scrollIntoView({
+                    behavior: 'smooth', // 你可以根据需要将此项更改为 'auto' 以获得即时滚动
+                });
+            }
+            console.log(" window.location.hash", window.location.hash);
+            // 在滚动后设置锚点
+            window.location.hash = window.location.hash;
+            }, 1000); // 500 毫秒的延迟，可以根据需要调整
     });
+
+
 
     on('click', '.link-button', function (e) {
         //   点击对应连接进行下载
