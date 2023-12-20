@@ -284,6 +284,19 @@
             mirror: false
         });
     }
+
+    window.addEventListener('hashchange', function(event) {
+        console.log(" hashchange", hashchange);
+        var hash = window.location.hash;
+        if (hash) {
+            console.log(" hash", hash);
+            var element = document.getElementById(hash);
+            if (element) {
+                console.log(" element", element);
+                element.scrollIntoView();
+            }
+        }
+    });
     window.addEventListener('load', () => {
         aos_init();
         fetch('https://scm.chusen.tech/version.json')
@@ -389,16 +402,7 @@
 
                 // 锚点位置不准确问题
                 window.location.hash = window.location.hash;
-                window.addEventListener('hashchange', function(event) {
-                    var hash = window.location.hash;
-                    if (hash) {
-                        var element = document.getElementById(hash);
-                        if (element) {
-                            console.log(" element", element);
-                            element.scrollIntoView();
-                        }
-                    }
-                });
+               
             });
 
      
