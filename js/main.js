@@ -219,6 +219,9 @@
             }, true);
         }
 
+        // 锚点位置不准确问题
+        window.location.hash = window.location.hash;
+
     });
 
     /**
@@ -385,15 +388,7 @@
                 // 锚点位置不准确问题
                 // window.location.hash = window.location.hash;
                 
-                // 获取要定位的元素，假设是一个具有 id 为 "myElement" 的元素
-                var element = document.getElementById('Linux');
 
-                // 获取页面的滚动高度
-                var scrollTop = window.offsetTop || document.documentElement.scrollTop;
-
-                // 设置元素的位置，根据滚动高度进行调整
-                element.style.position = 'fixed';
-                element.style.top = scrollTop + 'px';
 
             });
     });
