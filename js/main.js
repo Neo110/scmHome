@@ -299,7 +299,7 @@
                 document.getElementById("version").innerHTML = "最新版本 " + data.version;
 
                 // 解析packages 生成 table
-                for (var k in data.packages) {
+                for (var k = 0 ; k < data.packages.length; k++) {
                     console.log(" key", k);
 
                     var list = data.packages[k].list;
