@@ -340,7 +340,9 @@
                 // document.getElementById("loading-container").style.display = "none";
                 // // Show the content
                 // document.getElementById("content").style.display = "block";
-
+                // 更新锚点的链接地址
+                var Windows = document.getElementById('Windows');
+                Windows.href = '#Windows';
 
                 packagesHtml = "";
                 var listLinux = data.packages[1].list;
@@ -382,6 +384,9 @@
                 document.getElementById("loading-container").style.display = "none";
                 // Show the content
                 document.getElementById("content").style.display = "block";
+                // 更新锚点的链接地址
+                var Linux = document.getElementById('Linux');
+                Linux.href = '#Linux';
 
             });
     });
