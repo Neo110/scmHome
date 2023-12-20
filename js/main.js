@@ -384,9 +384,9 @@
                 document.getElementById("loading-container").style.display = "none";
                 // Show the content
                 document.getElementById("content").style.display = "block";
-                // 更新锚点的链接地址
-                var Linux = document.getElementById('Linux');
-                Linux.href = '#Linux';
+                // 锚点位置不准确问题
+                window.location.hash = window.location.hash;
+               
 
             });
     });
