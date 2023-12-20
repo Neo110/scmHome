@@ -394,7 +394,8 @@
                     if (hash) {
                         var element = document.getElementById(hash);
                         if (element) {
-                        element.scrollIntoView();
+                            console.log(" element", element);
+                            element.scrollIntoView();
                         }
                     }
                 });
