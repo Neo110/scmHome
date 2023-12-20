@@ -301,7 +301,7 @@
                 // 解析packages 生成 table
                 for (var k = 0 ; k < data.packages.length; k++) {
                     console.log(" key", k);
-
+                }
                     var list = data.packages[k].list;
                     console.log(" list", list.length);
                     var packagesHtml = "";
@@ -327,7 +327,7 @@
                         if(i != list.length)
                         packagesHtml += "<tr class='table-divider'></tr>";
                     }
-                }
+              
                 // 将packagesHtml 替换到界面中通过id
                 document.getElementById("packages").innerHTML = packagesHtml;
                 //添加link-button 点击后没有触发事件？
