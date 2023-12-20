@@ -219,8 +219,6 @@
             }, true);
         }
 
-        // 锚点位置不准确问题
-        window.location.hash = window.location.hash;
 
     });
 
@@ -391,6 +389,18 @@
 
 
             });
+
+        // 锚点位置不准确问题
+        window.location.hash = window.location.hash;
+        window.addEventListener('hashchange', function(event) {
+            var hash = window.location.hash;
+            if (hash) {
+              var element = document.getElementById(hash);
+              if (element) {
+                element.scrollIntoView();
+              }
+            }
+        });
     });
 
     on('click', '.link-button', function (e) {
