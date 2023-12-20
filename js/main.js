@@ -389,7 +389,7 @@
                 var element = document.getElementById('Linux');
 
                 // 获取页面的滚动高度
-                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                var scrollTop = window.offsetTop || document.documentElement.scrollTop;
 
                 // 设置元素的位置，根据滚动高度进行调整
                 element.style.position = 'fixed';
