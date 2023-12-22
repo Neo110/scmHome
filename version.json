@@ -6,9 +6,9 @@
     {
       "os": "windows",
       "copyright": "企业版本",
-      "version": "v1.0.11",
-      "name": "scm-v1.0.11.zip",
-      "url": "https://slink.ltd/https://github.com/Neo110/SCM/releases/download/v1.0.11/scm-v1.0.11.zip"
+      "version": "v1.0.12",
+      "name": "scm-v1.0.12.zip",
+      "url": "https://slink.ltd/https://github.com/Neo110/SCM/releases/download/v1.0.12/scm-v1.0.12.zip"
     }
   ],
   "usoversions": [
@@ -43,31 +43,38 @@
           "label": "dev自定义服务版本",
           "subLabel": "只包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
           "description": "dev自定义版本",
-          "url": "https://pan.baidu.com/s/1iANTT4V1j-n4M__ktSTTbw?pwd=7fmc"
+          "url": "https://pan.baidu.com/s/1Jg6lLevMN-WKO0n9XIS2Hg?pwd=nsia"
         },
         {
           "label": "包含全部服务",
           "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印+服务守护+邮件告警-crontab定制任务+钉钉推送",
           "description": "包含全部服务，一键安装快速交付部署",
-          "url": "https://pan.baidu.com/s/1vfeVPeT5_PJ_6nxpds4FAA?pwd=qa2d"
+          "url": "https://pan.baidu.com/s/1OP5-WmK4jbCsp7vuDL2rAw?pwd=fhes"
         },
         {
           "label": "JDK",
           "subLabel": "8 + 11 + 17 + 21",
           "description": "JDK版本切换工具",
-          "url": "https://pan.baidu.com/s/1Jipc_VEqWlavZzxjyIk-Hw?pwd=4icc"
+          "url": "https://pan.baidu.com/s/1TzvM7KW_Mozz1RsoMwW8aQ?pwd=2ye6"
+        },
+       
+        {
+          "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
+          "description": "SpingBoot安装包精简版本",
+          "url": "https://pan.baidu.com/s/17B3jbXDtSsrMOeZlKd8oPg?pwd=n6k3"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+SpringBoot+服务守护+邮件告警+crontab定制任务+钉钉推送",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
           "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1tchlNjRdtRgIgxCIjQ8yvw?pwd=h4qj"
+          "url": "https://pan.baidu.com/s/1pRbIxXLu-oAqjEM3r6wGQg?pwd=ncaq"
         },
         {
           "label": "Nginx+MySQL+Redis+JDK+tomcat+服务守护+邮件告警+crontab定制任务+钉钉推送",
           "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
           "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
-          "url": "https://pan.baidu.com/s/1fTzh_Y0suwdmotuZjuzKQA?pwd=rhg5"
+          "url": "https://pan.baidu.com/s/1BZCrVG3efbkKu7n_LpaiuA?pwd=z4ka"
         }
       ]
     },
