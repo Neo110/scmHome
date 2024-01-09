@@ -11,7 +11,7 @@
             "download":[
                 {
                     "name":"nginx-start.bat",
-                    "https://scm.chusen.tech/search/script/bat/nginx-start.bat",
+                    "url":"https://scm.chusen.tech/search/script/bat/nginx-start.bat",
                     "absolutePath":"./app"
                 }
             ],
