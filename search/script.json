@@ -3,15 +3,16 @@
         {
             "type": "script",
             "name": {
-                "title": "start-nginx.bat",
+                "title": "nginx-start.bat",
                 "first": "local Rayina",
                 "last": "local Pochinok"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "scm@chusen.tech",
+            "download":[
+                "https://scm.chusen.tech/search/script/nginx-start.bat"
+            ],
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/bat.png",
-                "medium": "https://randomuser.me/api/portraits/med/women/2.jpg",
-                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
+                "large": "https://scm.chusen.tech/search/img/bat.png"
             },
             "nat": "UA",
             "description":"启动nginx服务"
@@ -26,8 +27,6 @@
             "email": "luisa.fuentes@example.com",
             "picture": {
                 "large": "https://scm.chusen.tech/search/img/sh.png",
-                "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
-                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
             },
             "nat": "ES",
             "description":"停止nginx服务"
@@ -42,8 +41,6 @@
             "email": "gabin.leclerc@example.com",
             "picture": {
                 "large": "https://scm.chusen.tech/search/img/sh.png",
-                "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
-                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
             },
             "nat": "FR",
             "description":"重启nginx服务"
