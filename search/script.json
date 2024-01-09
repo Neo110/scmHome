@@ -26,7 +26,7 @@
             },
             "email": "luisa.fuentes@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/sh.png",
+                "large": "https://scm.chusen.tech/search/img/sh.png"
             },
             "nat": "ES",
             "description":"停止nginx服务"
@@ -40,7 +40,7 @@
             },
             "email": "gabin.leclerc@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/sh.png",
+                "large": "https://scm.chusen.tech/search/img/sh.png"
             },
             "nat": "FR",
             "description":"重启nginx服务"
