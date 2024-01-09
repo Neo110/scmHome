@@ -9,7 +9,11 @@
             },
             "email": "scm@chusen.tech",
             "download":[
-                "https://scm.chusen.tech/search/script/bat/nginx-start.bat"
+                {
+                    "name":"nginx-start.bat",
+                    "https://scm.chusen.tech/search/script/bat/nginx-start.bat",
+                    "absolutePath":"./app"
+                }
             ],
             "picture": {
                 "large": "https://scm.chusen.tech/search/img/bat.png"
