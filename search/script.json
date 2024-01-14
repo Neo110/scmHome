@@ -29,6 +29,13 @@
                 "last": "Fuentes"
             },
             "email": "luisa.fuentes@example.com",
+            "download":[
+                {
+                    "name":"nginx-stop.bat",
+                    "url":"https://scm.chusen.tech/search/script/bat/nginx-stop.bat",
+                    "absolutePath":"./app"
+                }
+            ],
             "picture": {
                 "large": "https://scm.chusen.tech/search/img/sh.png"
             },
