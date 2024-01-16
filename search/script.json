@@ -12,8 +12,8 @@
                 {
                     "name":"nginx-start.bat",
                     "url":"https://scm.chusen.tech/search/script/bat/nginx-start.bat",
-                    "version":"1.0.0",
-                    "tag":["nginx","start"],
+                    "version":"v1.0.1",
+                    "tags":["nginx","stop"],
                     "absolutePath":"./app"
                 }
             ],
@@ -35,15 +35,14 @@
                 {
                     "name":"nginx-stop.bat",
                     "url":"https://scm.chusen.tech/search/script/bat/nginx-stop.bat",
-                    "version":"1.0.0",
-                    "tag":["nginx","stop"],
+                    "version":"v1.0.0",
+                    "tags":["nginx","stop"],
                     "absolutePath":"./app"
                 }
             ],
             "picture": {
                 "large": "https://scm.chusen.tech/search/img/sh.png"
             },
-            "nat": "ES",
             "description":"停止nginx服务"
         },
         {
