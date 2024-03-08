@@ -9,7 +9,7 @@
             },
             "email": "rayina.pochinok@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/icon-zuixinshuju.svg",
+                "large": "https://neo110.github.io//search/img/icon-zuixinshuju.svg",
                 "medium": "https://randomuser.me/api/portraits/med/women/2.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
             },
@@ -25,7 +25,7 @@
             },
             "email": "luisa.fuentes@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/MySQL.svg",
+                "large": "https://neo110.github.io//search/img/MySQL.svg",
                 "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
             },
@@ -41,7 +41,7 @@
             },
             "email": "gabin.leclerc@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/Redis.svg",
+                "large": "https://neo110.github.io//search/img/Redis.svg",
                 "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
                 "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
             },

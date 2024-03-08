@@ -7,18 +7,18 @@
                 "first": "local Rayina",
                 "last": "local Pochinok"
             },
-            "email": "scm@chusen.tech",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name":"nginx-start.bat",
-                    "url":"https://scm.chusen.tech/search/script/bat/nginx-start.bat",
+                    "url":"https://neo110.github.io//search/script/bat/nginx-start.bat",
                     "version":"v1.0.1",
                     "tags":["nginx","stop"],
                     "absolutePath":"./app"
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/bat.png"
+                "large": "https://neo110.github.io//search/img/bat.png"
             },
             "nat": "UA",
             "description":"启动nginx服务"
@@ -34,14 +34,14 @@
             "download":[
                 {
                     "name":"nginx-stop.bat",
-                    "url":"https://scm.chusen.tech/search/script/bat/nginx-stop.bat",
+                    "url":"https://neo110.github.io//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","stop"],
                     "absolutePath":"./app"
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/sh.png"
+                "large": "https://neo110.github.io//search/img/sh.png"
             },
             "description":"停止nginx服务"
         },
@@ -54,7 +54,7 @@
             },
             "email": "gabin.leclerc@example.com",
             "picture": {
-                "large": "https://scm.chusen.tech/search/img/sh.png"
+                "large": "https://neo110.github.io//search/img/sh.png"
             },
             "nat": "FR",
             "description":"重启nginx服务"
