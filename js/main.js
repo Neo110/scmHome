@@ -299,7 +299,7 @@
     // });
     window.addEventListener('load', () => {
         aos_init();
-        fetch('https://neo110.github.io/version.json')
+        fetch('https://scm.chusen.tech/version.json')
             .then(response => {
                 // 检查网络请求是否成功
                 if (!response.ok) {
