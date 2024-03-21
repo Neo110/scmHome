@@ -1,0 +1,93 @@
+{
+  "name": "scm服务管理工具",
+  "about": "create by chusen.tech",
+  "version": "v1.0.13",
+  "versions": [
+    {
+      "os": "windows",
+      "copyright": "企业版本",
+      "version": "v1.0.13",
+      "name": "scm-v1.0.13.zip",
+      "url": "https://slink.ltd/https://github.com/Neo110/SCM/releases/download/v1.0.13/scm-v1.0.13.zip"
+    }
+  ],
+  "usoversions": [
+    {
+      "os": "uos",
+      "copyright": "企业版本",
+      "version": "v1.0.13",
+      "name": "scm-v1.0.13.zip",
+      "url": "https://slink.ltd/https://github.com/Neo110/SCM/releases/download/v1.0.13/scm-v1.0.13.zip"
+    }
+  ],
+  "msg": [
+    {
+      "name": "名称",
+      "subname": "子名称名称",
+      "opneweb": {
+          "btnname":"打开",
+          "url":"http://web.chusentech.com/scm/scm-v1.0.6.rar"
+      },
+      "startTime": "子名称名称",
+      "endTime": "子名称名称",
+      "sort":1,
+      "sleep": 10,
+      "isshow":false
+    }
+  ],
+  "packages": [
+    {
+      "os": "windows",
+      "list": [
+        {
+          "label": "dev自定义服务版本",
+          "subLabel": "只包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
+          "description": "dev自定义版本",
+          "url": "https://pan.baidu.com/s/1U9j-PMfq9lgLSZ9k7Wd5iA?pwd=w5zy"
+        },
+        {
+          "label": "包含全部服务",
+          "subLabel": "all-Nginx+MySQL+Redis+JDK+SpringBoot-tomcat-Minio-openssh-flashFXP-FileZillaServer-屏幕水印+服务守护+邮件告警-crontab定制任务+钉钉推送",
+          "description": "包含全部服务，一键安装快速交付部署",
+          "url": "https://pan.baidu.com/s/1e4DBHaBnN0mybnHcxMqLmw?pwd=6xwt"
+        },
+        {
+          "label": "JDK",
+          "subLabel": "8 + 11 + 17 + 21",
+          "description": "JDK版本切换工具",
+          "url": "https://pan.baidu.com/s/1CMK3PglnWlXUb8_tXstEHQ?pwd=t7d6"
+        },
+       
+        {
+          "label": "Nginx+MySQL+Redis+JDK+SpringBoot",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
+          "description": "SpingBoot-simple安装包精简版本",
+          "url": "https://pan.baidu.com/s/1FyqcvbeC38NnNTVk4gUJhA?pwd=fpwh"
+        },
+        {
+          "label": "Nginx+MySQL+Redis+JDK+SpringBoot+服务守护+邮件告警+crontab定制任务+钉钉推送",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 不限",
+          "description": "SpingBoot安装包，支持自定义项目服务管理，支持自定义打包项目",
+          "url": "https://pan.baidu.com/s/1gV-wSwuj_ib1ZjdKx60dPw?pwd=hsx3"
+        },
+        {
+          "label": "Nginx+MySQL+Redis+JDK+tomcat+服务守护+邮件告警+crontab定制任务+钉钉推送",
+          "subLabel": "1.14.2 + 5.7 + 4.0 + 8 + 8",
+          "description": "SpingMVC安装包，支持自定义项目服务管理，支持自定义打包项目",
+          "url": "https://pan.baidu.com/s/1Srs3R_q-k5OzQDiJFkVkuA?pwd=5i2n"
+        }
+      ]
+    },
+    {
+      "os": "linux",
+      "list": [
+        {
+          "label": "UOS国产操作系统-dev自定义服务版本",
+          "subLabel": "只包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
+          "description": "deb包dev自定义版本",
+          "url": "https://pan.baidu.com/s/1kBnqxGEBbgRbXh-i_d4SSg?pwd=yxev"
+        }
+      ]
+    }
+  ]
+}
