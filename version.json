@@ -37,10 +37,10 @@
   ],
   "packages": [
     {
-      "os": "v1.xx版本",
+      "os": "windows",
       "list": [
         {
-          "label": "全部版本",
+          "label": "v1.xx全部版本",
           "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
           "description": "全部版本",
           "url": "https://pan.baidu.com/s/1RKxpnaZcQ1ferpgDEm9x_g?pwd=4ox1"
