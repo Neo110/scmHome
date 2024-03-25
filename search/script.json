@@ -21,6 +21,16 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.png"
             },
             "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"#2db7f5"
+            },{
+                "name":"开发者:未知",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"#2db7f5"
+            }],
+            "caution":"请确保nginx已经安装",
             "description":"启动nginx服务"
         },
         {
