@@ -28,7 +28,7 @@
             },{
                 "name":"开发者:未知",
                 "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"#2db7f5"
+                "color":"#1677ff"
             }],
             "caution":"请确保nginx已经安装",
             "description":"启动nginx服务"
