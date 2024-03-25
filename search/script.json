@@ -18,7 +18,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/bat.png"
+                "large": "https://scm.chusen.tech//search/img/powershell.png"
             },
             "nat": "UA",
             "description":"启动nginx服务"
@@ -41,7 +41,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/sh.png"
+                "large": "https://scm.chusen.tech//search/img/shell.png"
             },
             "description":"停止nginx服务"
         },
