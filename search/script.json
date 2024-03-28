@@ -90,7 +90,7 @@
                     "name":"nginx-start.sh",
                     "url":"https://scm.chusen.tech//search/script/shell/nginx-start.sh",
                     "version":"v1.0.1",
-                    "tags":["nginx","stop"],
+                    "tags":["nginx","start"],
                     "absolutePath":"./app"
                 }
             ],
@@ -141,7 +141,7 @@
                     "name":"nginx-restart.sh",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
-                    "tags":["nginx","stop"],
+                    "tags":["nginx","restart"],
                     "absolutePath":"./app"
                 }
             ],
@@ -162,7 +162,7 @@
                     "name":"nginx-status.sh",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-status.bat",
                     "version":"v1.0.0",
-                    "tags":["nginx","stop"],
+                    "tags":["nginx","status"],
                     "absolutePath":"./app"
                 }
             ],
