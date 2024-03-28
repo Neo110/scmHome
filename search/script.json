@@ -36,14 +36,89 @@
         {
             "type": "script",
             "name": {
-                "title": "stop-nginx.bat",
-                "first": "Luisa",
-                "last": "Fuentes"
+                "title": "stop-nginx.bat"
             },
-            "email": "luisa.fuentes@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name":"nginx-stop.bat",
+                    "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
+                    "version":"v1.0.0",
+                    "tags":["nginx","stop"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/powershell.png"
+            },
+            "description":"停止nginx服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "restart-nginx.bat"
+            },
+            "email": "zsvc@163.com",
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/powershell.png"
+            },
+            "nat": "FR",
+            "description":"重启nginx服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "status-nginx.bat"
+            },
+            "email": "zsvc@163.com",
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/powershell.png"
+            },
+            "nat": "FR",
+            "description":"状态nginx服务"
+        },
+
+
+        {
+            "type": "script",
+            "name": {
+                "title": "nginx-start.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"nginx-start.sh",
+                    "url":"https://scm.chusen.tech//search/script/shell/nginx-start.sh",
+                    "version":"v1.0.1",
+                    "tags":["nginx","stop"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/shell.png"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"#2db7f5"
+            },{
+                "name":"开发者:未知",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"#1677ff"
+            }],
+            "caution":"请确保nginx已经安装",
+            "description":"启动nginx服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "nginx-stop.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"nginx-stop.sh",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","stop"],
@@ -58,16 +133,44 @@
         {
             "type": "script",
             "name": {
-                "title": "restart-nginx.bat",
-                "first": "Gabin",
-                "last": "Leclerc"
+                "title": "nginx-restart.sh"
             },
-            "email": "gabin.leclerc@example.com",
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"nginx-restart.sh",
+                    "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
+                    "version":"v1.0.0",
+                    "tags":["nginx","stop"],
+                    "absolutePath":"./app"
+                }
+            ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/sh.png"
+                "large": "https://scm.chusen.tech//search/img/shell.png"
             },
             "nat": "FR",
             "description":"重启nginx服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "nginx-status.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"nginx-status.sh",
+                    "url":"https://scm.chusen.tech//search/script/bat/nginx-status.bat",
+                    "version":"v1.0.0",
+                    "tags":["nginx","stop"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/shell.png"
+            },
+            "nat": "FR",
+            "description":"状态nginx服务"
         }
     ]
 }
