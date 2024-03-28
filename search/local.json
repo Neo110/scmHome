@@ -48,7 +48,7 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"nginx-macos.zip",
+                    "name":"nginx-1.25.4.zip",
                     "url":"https://nginx.org/download/nginx-1.25.4.zip",
                     "version":"v1.0.13",
                     "tags":["nginx","macos"],
