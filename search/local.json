@@ -52,7 +52,7 @@
                     "url":"https://nginx.org/download/nginx-1.25.4.zip",
                     "version":"v1.0.13",
                     "tags":["nginx","macos"],
-                    "absolutePath":"./app/nginx"
+                    "absolutePath":"./app"
                 }
             ],
             "picture": {
