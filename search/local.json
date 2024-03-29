@@ -3,7 +3,7 @@
         {
             "gender": "推送服务",
             "name": {
-                "title": "推送服务 1.4.2",
+                "title": "推送服务 1.4.2 - Macos",
                 "first": "local Rayina",
                 "last": "local Pochinok"
             },
@@ -76,11 +76,20 @@
         {
             "gender": "female",
             "name": {
-                "title": "MySql",
+                "title": "MySql 5.7.27-Macos",
                 "first": "Luisa",
                 "last": "Fuentes"
             },
             "email": "luisa.fuentes@example.com",
+            "download":[
+                {
+                    "name":"mysql-5.7.27-Macos.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql/mysql-5.7.27-Macos.zip",
+                    "version":"v5.7.27",
+                    "tags":["mysql","macos"],
+                    "absolutePath":"./app"
+                }
+            ],
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/MySQL.svg",
                 "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
@@ -111,6 +120,15 @@
                 "last": "Leclerc"
             },
             "email": "gabin.leclerc@example.com",
+            "download":[
+                {
+                    "name":"redis-5.7.27-Macos.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/redis/redis-5.7.27-Macos.zip",
+                    "version":"v5.7.27",
+                    "tags":["redis","macos"],
+                    "absolutePath":"./app"
+                }
+            ],
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/Redis.svg"
             },
@@ -130,6 +148,41 @@
                 "color":"processing"
             }],
             "description":"Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。"
+        },
+        {
+            "gender": "Jdk8",
+            "name": {
+                "title": "Jdk8"
+            },
+            "email": "gabin.leclerc@example.com",
+            "download":[
+                {
+                    "name":"jdk8-Macos.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk/jdk8-Macos.zip",
+                    "version":"v1.8",
+                    "tags":["jdk","macos"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/Java.png"
+            },
+            "nat": "FR",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"cyan"
+            },{
+                "name":"Macos平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容付费:免费",
+                "color":"processing"
+            }],
+            "description":"JDK是Java Development Kit 的缩写，是Sun Microsystems针对Java开发员的产品。"
         }
     ]
 }
