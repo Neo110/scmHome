@@ -41,9 +41,7 @@
         {
             "gender": "Nginx",
             "name": {
-                "title": "Nginx 1.25.4",
-                "first": "local Rayina",
-                "last": "local Pochinok"
+                "title": "Nginx 1.25.4 - macos"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
@@ -59,7 +57,21 @@
                 "large": "https://scm.chusen.tech//search/img/icon-zuixinshuju.svg"
             },
             "nat": "UA",
-            "description":"Nginx是一款轻量级的Web服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，并在一个BSD-like 协议下发行。由俄罗斯的程序设计师Igor Sysoev所开发，供俄国大型的入口网站及搜索引擎Rambler（俄文：Рамблер）使用。其特点是占有内存少，并发能力强，事实上nginx的并发能力确实在同类型的网页服务器中表现较好。"
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"cyan"
+            },{
+                "name":"Macos平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容付费:免费",
+                "color":"processing"
+            }],
+            "description":"Nginx是一款轻量级的Web服务器/反向代理服务器。"
         },
         {
             "gender": "female",
