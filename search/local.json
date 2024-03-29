@@ -41,7 +41,7 @@
         {
             "gender": "Nginx",
             "name": {
-                "title": "Nginx 1.4.2",
+                "title": "Nginx 1.25.4",
                 "first": "local Rayina",
                 "last": "local Pochinok"
             },
@@ -49,8 +49,8 @@
             "download":[
                 {
                     "name":"nginx-1.25.4.zip",
-                    "url":"https://nginx.org/download/nginx-1.25.4.zip",
-                    "version":"v1.0.13",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx-1.25.4.zip",
+                    "version":"v1.25.4",
                     "tags":["nginx","macos"],
                     "absolutePath":"./app"
                 }
