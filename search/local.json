@@ -41,7 +41,7 @@
         {
             "gender": "Nginx",
             "name": {
-                "title": "Nginx 1.25.4 - macos"
+                "title": "Nginx 1.25.4 - Macos"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
@@ -76,7 +76,7 @@
         {
             "gender": "female",
             "name": {
-                "title": "MySql 5.7.27-Macos",
+                "title": "MySql 5.7.27 - Macos",
                 "first": "Luisa",
                 "last": "Fuentes"
             },
@@ -115,7 +115,7 @@
         {
             "gender": "Redis",
             "name": {
-                "title": "Redis",
+                "title": "Redis - Macos",
                 "first": "Gabin",
                 "last": "Leclerc"
             },
@@ -152,7 +152,7 @@
         {
             "gender": "Jdk8",
             "name": {
-                "title": "Jdk8"
+                "title": "Jdk8 - Macos"
             },
             "email": "gabin.leclerc@example.com",
             "download":[
