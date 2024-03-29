@@ -24,7 +24,7 @@
             "tags":[{
                 "name":"官网",
                 "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"#2db7f5"
+                "color":"green"
             },{
                 "name":"开发者:未知",
                 "color":"cyan"
@@ -60,7 +60,7 @@
             "tags":[{
                 "name":"官网",
                 "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"cyan"
+                "color":"green"
             },{
                 "name":"Macos平台",
                 "color":"cyan"
@@ -90,7 +90,7 @@
             "tags":[{
                 "name":"官网",
                 "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"cyan"
+                "color":"green"
             },{
                 "name":"Macos平台",
                 "color":"cyan"
