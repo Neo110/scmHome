@@ -36,6 +36,7 @@
                 "color":"processing"
             }],
             "conf":{
+                "key":"push-macos",
                 "name":"推送服务",
                 "status":"停止",
                 "tray":true,
@@ -44,13 +45,47 @@
                 "version":"v1.4.2",
                 "icon":"https://scm.chusen.tech/search/img/service.png",
                 "content":"",
-                "startScript":"./app/push-start.sh",
-                "stopScript":"./app/push-stop.sh",
-                "restartScript":"./app/push-restart.sh",
-                "statusScript":"./app/push-status.sh",
+                "startScript":"push-start.sh",
+                "stopScript":"push-stop.sh",
+                "restartScript":"push-restart.sh",
+                "statusScript":"push-status.sh",
                 "conffile":[{"name":"push.conf","path":"./app/push/conf/push.conf"}],
                 "logfile":[{"name":"push.log","path":"./app/push/logs/push.log"}]
             },
+            "script":[
+                {
+                    "key":"push-start.sh",
+                    "name":"push-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.png",
+                    "tags": [],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"push-stop.sh",
+                    "name":"push-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.png",
+                    "tags": [],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"push-restart.sh",
+                    "name":"push-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.png",
+                    "tags": [],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"push-status.sh",
+                    "name":"push-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.png",
+                    "tags": [],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
             "caution":"请确保nginx已经安装",
             "description":"通用推送服务程序，支持钉钉，微信，等平台"
         },
