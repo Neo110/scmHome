@@ -57,7 +57,7 @@
                     "key":"push-start.sh",
                     "name":"push-start.sh",
                     "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": [],
+                    "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
@@ -65,7 +65,7 @@
                     "key":"push-stop.sh",
                     "name":"push-stop.sh",
                     "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": [],
+                    "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
@@ -73,7 +73,7 @@
                     "key":"push-restart.sh",
                     "name":"push-restart.sh",
                     "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": [],
+                    "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
@@ -81,7 +81,7 @@
                     "key":"push-status.sh",
                     "name":"push-status.sh",
                     "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": [],
+                    "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 }
