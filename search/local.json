@@ -35,6 +35,22 @@
                 "name":"内容付费:免费",
                 "color":"processing"
             }],
+            "conf":{
+                "name":"推送服务",
+                "status":"stop",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech/search/img/service.png",
+                "content":"",
+                "startScript":"./app/push-start.sh",
+                "stopScript":"./app/push-stop.sh",
+                "restartScript":"./app/push-restart.sh",
+                "statusScript":"./app/push-status.sh",
+                "conffile":[{"name":"push.conf","path":"./app/push/conf/push.conf"}],
+                "logfile":[{"name":"push.log","path":"./app/push/logs/push.log"}]
+            },
             "caution":"请确保nginx已经安装",
             "description":"通用推送服务程序，支持钉钉，微信，等平台"
         },
