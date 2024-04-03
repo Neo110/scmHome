@@ -37,7 +37,7 @@
             }],
             "conf":{
                 "name":"推送服务",
-                "status":"stop",
+                "status":"停止",
                 "tray":true,
                 "startSort":1,
                 "tags":[],
