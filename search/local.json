@@ -132,12 +132,12 @@
                 "version":"v1.4.2",
                 "icon":"https://scm.chusen.tech//search/img/icon-zuixinshuju.svg",
                 "content":"",
-                "startScript":"nginx-start.sh",
-                "stopScript":"nginx-stop.sh",
-                "restartScript":"nginx-restart.sh",
-                "statusScript":"nginx-status.sh",
-                "conffile":[{"name":"nginx.conf","path":"./app/nginx/conf/push.conf"}],
-                "logfile":[{"name":"nginx.log","path":"./app/nginx/logs/push.log"}]
+                "startScript":"nginx-start.bat",
+                "stopScript":"nginx-stop.bat",
+                "restartScript":"nginx-restart.bat",
+                "statusScript":"nginx-status.bat",
+                "conffile":[{"name":"nginx.conf","path":"./app/nginx/conf/nginx.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/nginx/logs/access.log"},{"name":"error.log","path":"./app/nginx/logs/error.log"}]
             },
             "script":[
                 {
