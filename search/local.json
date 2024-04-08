@@ -122,6 +122,57 @@
                 "name":"内容付费:免费",
                 "color":"processing"
             }],
+            "conf":{
+                "key":"nginx-windows",
+                "name":"Nginx",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech/search/img/Nginx.svg",
+                "content":"",
+                "startScript":"nginx-start.sh",
+                "stopScript":"nginx-stop.sh",
+                "restartScript":"nginx-restart.sh",
+                "statusScript":"nginx-status.sh",
+                "conffile":[{"name":"nginx.conf","path":"./app/nginx/conf/push.conf"}],
+                "logfile":[{"name":"nginx.log","path":"./app/nginx/logs/push.log"}]
+            },
+            "script":[
+                {
+                    "key":"nginx-start.sh",
+                    "name":"nginx-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"nginx-stop.sh",
+                    "name":"nginx-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"nginx-restart.sh",
+                    "name":"nginx-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"nginx-status.sh",
+                    "name":"nginx-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
             "description":"Nginx是一款轻量级的Web服务器/反向代理服务器。"
         },
         {
