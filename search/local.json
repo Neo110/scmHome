@@ -141,32 +141,32 @@
             },
             "script":[
                 {
-                    "key":"nginx-start.sh",
-                    "name":"nginx-start.sh",
+                    "key":"nginx-start.bat",
+                    "name":"nginx-start.bat",
                     "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
                 {
-                    "key":"nginx-stop.sh",
-                    "name":"nginx-stop.sh",
+                    "key":"nginx-stop.bat",
+                    "name":"nginx-stop.bat",
                     "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
                 {
-                    "key":"nginx-restart.sh",
-                    "name":"nginx-restart.sh",
+                    "key":"nginx-restart.bat",
+                    "name":"nginx-restart.bat",
                     "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
                 {
-                    "key":"nginx-status.sh",
-                    "name":"nginx-status.sh",
+                    "key":"nginx-status.bat",
+                    "name":"nginx-status.bat",
                     "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
