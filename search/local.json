@@ -130,7 +130,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech/search/img/Nginx.svg",
+                "icon":"https://scm.chusen.tech//search/img/icon-zuixinshuju.svg",
                 "content":"",
                 "startScript":"nginx-start.sh",
                 "stopScript":"nginx-stop.sh",
@@ -143,7 +143,7 @@
                 {
                     "key":"nginx-start.sh",
                     "name":"nginx-start.sh",
-                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -151,7 +151,7 @@
                 {
                     "key":"nginx-stop.sh",
                     "name":"nginx-stop.sh",
-                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -159,7 +159,7 @@
                 {
                     "key":"nginx-restart.sh",
                     "name":"nginx-restart.sh",
-                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -167,7 +167,7 @@
                 {
                     "key":"nginx-status.sh",
                     "name":"nginx-status.sh",
-                    "icon":"https://scm.chusen.tech//search/img/bat.svg",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
