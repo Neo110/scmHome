@@ -92,15 +92,15 @@
         {
             "gender": "Nginx",
             "name": {
-                "title": "Nginx 1.25.4 - Macos"
+                "title": "Nginx 1.25.4 - Windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
                     "name":"nginx-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx-1.25.4.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx.zip",
                     "version":"v1.25.4",
-                    "tags":["nginx","macos"],
+                    "tags":["nginx","Windows"],
                     "absolutePath":"./app"
                 }
             ],
@@ -113,7 +113,7 @@
                 "url":"https://scm.chusen.tech//search/tag/nginx",
                 "color":"green"
             },{
-                "name":"Macos平台",
+                "name":"Windows平台",
                 "color":"cyan"
             },{
                 "name":"版权:MIT",
