@@ -173,6 +173,92 @@
             "description":"Redis即远程字典服务，是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API"
         },
         {
+            "gender": "SW",
+            "name": {
+                "title": "SW 1.25.4 - Windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name":"sw-1.25.4.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-windows.zip",
+                    "version":"v1.25.4",
+                    "tags":["sw","Windows"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/icon-zuixinshuju.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/sw",
+                "color":"green"
+            },{
+                "name":"Windows平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容付费:免费",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"crontab-windows",
+                "name":"SW",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/SW.svg",
+                "content":"",
+                "startScript":"crontab-start.bat",
+                "stopScript":"crontab-stop.bat",
+                "restartScript":"crontab-restart.bat",
+                "statusScript":"crontab-status.bat",
+                "conffile":[{"name":"crontab.conf","path":"./app/crontab/conf/crontab.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/crontab/logs/access.log"},{"name":"error.log","path":"./app/crontab/logs/error.log"}]
+            },
+            "script":[
+                {
+                    "key":"sw-start.bat",
+                    "name":"sw-start.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"sw-stop.bat",
+                    "name":"sw-stop.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"sw-restart.bat",
+                    "name":"sw-restart.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"sw-status.bat",
+                    "name":"sw-status.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"SW支持自定义时间周期的定时任务功能系统。"
+        },
+        {
             "gender": "推送服务",
             "name": {
                 "title": "推送服务 1.4.2 - Macos",
@@ -260,6 +346,178 @@
             ],
             "caution":"请确保nginx已经安装",
             "description":"通用推送服务程序，支持钉钉，微信，等平台"
+        },
+        {
+            "gender": "OpenSSH",
+            "name": {
+                "title": "OpenSSH 1.25.4 - Windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name":"ssh-1.25.4.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/ssh/ssh-windows.zip",
+                    "version":"v1.25.4",
+                    "tags":["ssh","Windows"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/icon-zuixinshuju.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/ssh",
+                "color":"green"
+            },{
+                "name":"Windows平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容付费:免费",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"ssh-windows",
+                "name":"OpenSSH",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/OpenSSH.svg",
+                "content":"",
+                "startScript":"ssh-start.bat",
+                "stopScript":"ssh-stop.bat",
+                "restartScript":"ssh-restart.bat",
+                "statusScript":"ssh-status.bat",
+                "conffile":[{"name":"ssh.conf","path":"./app/ssh/conf/ssh.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/ssh/logs/access.log"},{"name":"error.log","path":"./app/ssh/logs/error.log"}]
+            },
+            "script":[
+                {
+                    "key":"ssh-start.bat",
+                    "name":"ssh-start.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"ssh-stop.bat",
+                    "name":"ssh-stop.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"ssh-restart.bat",
+                    "name":"ssh-restart.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"ssh-status.bat",
+                    "name":"ssh-status.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"OpenSSH 是 SSH （Secure SHell） 协议的免费开源实现。SSH协议族可以用来进行远程控制"
+        },
+        {
+            "gender": "Crontab",
+            "name": {
+                "title": "Crontab 1.25.4 - Windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name":"crontab-1.25.4.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/crontab/crontab-windows.zip",
+                    "version":"v1.25.4",
+                    "tags":["crontab","Windows"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/icon-zuixinshuju.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/crontab",
+                "color":"green"
+            },{
+                "name":"Windows平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容付费:免费",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"crontab-windows",
+                "name":"Crontab",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/Crontab.svg",
+                "content":"",
+                "startScript":"crontab-start.bat",
+                "stopScript":"crontab-stop.bat",
+                "restartScript":"crontab-restart.bat",
+                "statusScript":"crontab-status.bat",
+                "conffile":[{"name":"crontab.conf","path":"./app/crontab/conf/crontab.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/crontab/logs/access.log"},{"name":"error.log","path":"./app/crontab/logs/error.log"}]
+            },
+            "script":[
+                {
+                    "key":"crontab-start.bat",
+                    "name":"crontab-start.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"crontab-stop.bat",
+                    "name":"crontab-stop.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"crontab-restart.bat",
+                    "name":"crontab-restart.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"crontab-status.bat",
+                    "name":"crontab-status.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"Crontab支持自定义时间周期的定时任务功能系统。"
         },
         {
             "gender": "female",
