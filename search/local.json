@@ -127,7 +127,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech//search/img/Redis.svg",
+                "icon":"https://scm.chusen.tech//search/img/redis.svg",
                 "content":"",
                 "startScript":"redis-start.bat",
                 "stopScript":"redis-stop.bat",
