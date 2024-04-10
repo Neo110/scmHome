@@ -16,7 +16,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/icon-zuixinshuju.svg"
+                "large": "https://scm.chusen.tech//search/img/nginx.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -54,7 +54,7 @@
                 {
                     "key":"nginx-start.bat",
                     "name":"nginx-start.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -62,7 +62,7 @@
                 {
                     "key":"nginx-stop.bat",
                     "name":"nginx-stop.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -70,7 +70,7 @@
                 {
                     "key":"nginx-restart.bat",
                     "name":"nginx-restart.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -78,7 +78,7 @@
                 {
                     "key":"nginx-status.bat",
                     "name":"nginx-status.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -102,7 +102,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/Redis.svg"
+                "large": "https://scm.chusen.tech//search/img/redis.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -140,7 +140,7 @@
                 {
                     "key":"redis-start.bat",
                     "name":"redis-start.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -148,7 +148,7 @@
                 {
                     "key":"redis-stop.bat",
                     "name":"redis-stop.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -156,7 +156,7 @@
                 {
                     "key":"redis-restart.bat",
                     "name":"redis-restart.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -164,7 +164,7 @@
                 {
                     "key":"redis-status.bat",
                     "name":"redis-status.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -188,7 +188,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/service.png"
+                "large": "https://scm.chusen.tech//search/img/service.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -213,7 +213,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech//search/img/SW.svg",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
                 "content":"",
                 "startScript":"crontab-start.bat",
                 "stopScript":"crontab-stop.bat",
@@ -226,7 +226,7 @@
                 {
                     "key":"sw-start.bat",
                     "name":"sw-start.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -234,7 +234,7 @@
                 {
                     "key":"sw-stop.bat",
                     "name":"sw-stop.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -242,7 +242,7 @@
                 {
                     "key":"sw-restart.bat",
                     "name":"sw-restart.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -250,7 +250,7 @@
                 {
                     "key":"sw-status.bat",
                     "name":"sw-status.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -276,7 +276,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/service.png"
+                "large": "https://scm.chusen.tech//search/img/service.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -301,7 +301,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech/search/img/service.png",
+                "icon":"https://scm.chusen.tech/search/img/service.svg",
                 "content":"",
                 "startScript":"push-start.sh",
                 "stopScript":"push-stop.sh",
@@ -363,7 +363,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/service.png"
+                "large": "https://scm.chusen.tech//search/img/service.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -388,7 +388,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech//search/img/OpenSSH.svg",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
                 "content":"",
                 "startScript":"ssh-start.bat",
                 "stopScript":"ssh-stop.bat",
@@ -401,7 +401,7 @@
                 {
                     "key":"ssh-start.bat",
                     "name":"ssh-start.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -409,7 +409,7 @@
                 {
                     "key":"ssh-stop.bat",
                     "name":"ssh-stop.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -417,7 +417,7 @@
                 {
                     "key":"ssh-restart.bat",
                     "name":"ssh-restart.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -425,7 +425,7 @@
                 {
                     "key":"ssh-status.bat",
                     "name":"ssh-status.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -449,7 +449,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/service.png"
+                "large": "https://scm.chusen.tech//search/img/service.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -474,7 +474,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech//search/img/Crontab.svg",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
                 "content":"",
                 "startScript":"crontab-start.bat",
                 "stopScript":"crontab-stop.bat",
@@ -487,7 +487,7 @@
                 {
                     "key":"crontab-start.bat",
                     "name":"crontab-start.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -495,7 +495,7 @@
                 {
                     "key":"crontab-stop.bat",
                     "name":"crontab-stop.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -503,7 +503,7 @@
                 {
                     "key":"crontab-restart.bat",
                     "name":"crontab-restart.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -511,7 +511,7 @@
                 {
                     "key":"crontab-status.bat",
                     "name":"crontab-status.bat",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.png",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["bat"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
