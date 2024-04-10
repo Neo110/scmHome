@@ -41,7 +41,7 @@
                 "startSort":1,
                 "tags":[],
                 "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech//search/img/icon-zuixinshuju.svg",
+                "icon":"https://scm.chusen.tech//search/img/nginx.svg",
                 "content":"",
                 "startScript":"nginx-start.bat",
                 "stopScript":"nginx-stop.bat",
