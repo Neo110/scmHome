@@ -175,7 +175,7 @@
         {
             "gender": "SW",
             "name": {
-                "title": "SW 1.25.4 - Windows"
+                "title": "SW屏幕水印 1.0.1 - Windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
@@ -256,7 +256,7 @@
                     "absolutePath":"./app/"
                 }
             ],
-            "description":"SW支持自定义时间周期的定时任务功能系统。"
+            "description":"SW屏幕水印支持自定义时间显示在最顶层。"
         },
         {
             "gender": "push推送服务",
