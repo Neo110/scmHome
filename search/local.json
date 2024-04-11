@@ -219,7 +219,7 @@
                 "stopScript":"sw-stop.bat",
                 "restartScript":"sw-restart.bat",
                 "statusScript":"sw-status.bat",
-                "conffile":[{"name":"config.conf","path":"./app/sw/config.conf"}],
+                "conffile":[{"name":"config.ini","path":"./app/sw/config.ini"}],
                 "logfile":[{"name":"sw.log","path":"./app/sw/scm-sw.log"}]
             },
             "script":[
