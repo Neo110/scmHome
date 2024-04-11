@@ -207,7 +207,7 @@
             }],
             "conf":{
                 "key":"crontab-windows",
-                "name":"SW",
+                "name":"SW屏幕水印",
                 "status":"停止",
                 "tray":true,
                 "startSort":1,
