@@ -259,7 +259,7 @@
             "description":"SW支持自定义时间周期的定时任务功能系统。"
         },
         {
-            "gender": "推送服务",
+            "gender": "push推送服务",
             "name": {
                 "title": "推送服务 1.4.2 - Macos",
                 "first": "local Rayina",
@@ -468,7 +468,7 @@
             }],
             "conf":{
                 "key":"crontab-windows",
-                "name":"Crontab",
+                "name":"Crontab定时任务",
                 "status":"停止",
                 "tray":true,
                 "startSort":1,
@@ -480,8 +480,8 @@
                 "stopScript":"crontab-stop.bat",
                 "restartScript":"crontab-restart.bat",
                 "statusScript":"crontab-status.bat",
-                "conffile":[{"name":"crontab.conf","path":"./app/crontab/conf/crontab.conf"}],
-                "logfile":[{"name":"access.log","path":"./app/crontab/logs/access.log"},{"name":"error.log","path":"./app/crontab/logs/error.log"}]
+                "conffile":[{"name":"config.ini","path":"./app/crontab/config.ini"}],
+                "logfile":[{"name":"crontab.log","path":"./app/crontab/scm-crontab.log"}]
             },
             "script":[
                 {
