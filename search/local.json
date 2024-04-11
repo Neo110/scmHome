@@ -215,12 +215,12 @@
                 "version":"v1.4.2",
                 "icon":"https://scm.chusen.tech//search/img/service.svg",
                 "content":"",
-                "startScript":"crontab-start.bat",
-                "stopScript":"crontab-stop.bat",
-                "restartScript":"crontab-restart.bat",
-                "statusScript":"crontab-status.bat",
-                "conffile":[{"name":"crontab.conf","path":"./app/crontab/conf/crontab.conf"}],
-                "logfile":[{"name":"access.log","path":"./app/crontab/logs/access.log"},{"name":"error.log","path":"./app/crontab/logs/error.log"}]
+                "startScript":"sw-start.bat",
+                "stopScript":"sw-stop.bat",
+                "restartScript":"sw-restart.bat",
+                "statusScript":"sw-status.bat",
+                "conffile":[{"name":"config.conf","path":"./app/sw/config.conf"}],
+                "logfile":[{"name":"sw.log","path":"./app/sw/scm-sw.log"}]
             },
             "script":[
                 {
