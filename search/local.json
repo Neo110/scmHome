@@ -133,8 +133,8 @@
                 "stopScript":"redis-stop.bat",
                 "restartScript":"redis-restart.bat",
                 "statusScript":"redis-status.bat",
-                "conffile":[{"name":"redis.conf","path":"./app/redis/conf/redis.conf"}],
-                "logfile":[{"name":"access.log","path":"./app/redis/logs/access.log"},{"name":"error.log","path":"./app/redis/logs/error.log"}]
+                "conffile":[{"name":"redis.windows.conf","path":"./app/redis/redis.windows.conf"},{"name":"redis.windows-service.conf","path":"./app/redis/redis.windows-service.conf"}],
+                "logfile":[{"name":"redis.log","path":"./app/redis/redis.log"}]
             },
             "script":[
                 {
