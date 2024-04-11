@@ -9,7 +9,7 @@
             "download":[
                 {
                     "name":"nginx-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx-windows.zip",
                     "version":"v1.25.4",
                     "tags":["nginx","Windows"],
                     "absolutePath":"./app"
