@@ -668,7 +668,7 @@
                     "name":"jdk8-Macos.zip",
                     "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk/jdk8-Macos.zip",
                     "version":"v1.8",
-                    "tags":["jdk","macos"],
+                    "tags":["jdk","windows"],
                     "absolutePath":"./app"
                 }
             ],
@@ -689,7 +689,61 @@
             },{
                 "name":"内容:免费",
                 "color":"processing"
+            },{
+                "name":"大小:156M",
+                "color":"processing"
             }],
+            "conf":{
+                "key":"jdk8-windows",
+                "name":"jdk8",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"jdk8-start.bat",
+                "stopScript":"jdk8-stop.bat",
+                "restartScript":"jdk8-restart.bat",
+                "statusScript":"jdk8-status.bat",
+                "conffile":[{"name":"config.ini","path":"./app/jdk8/config.ini"}],
+                "logfile":[{"name":"crontab.log","path":"./app/jdk8/scm-crontab.log"}]
+            },
+            "script":[
+                {
+                    "key":"jdk8-start.bat",
+                    "name":"jdk8-start.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"jdk8-stop.bat",
+                    "name":"jdk8-stop.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"jdk8-restart.bat",
+                    "name":"jdk8-restart.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"jdk8-status.bat",
+                    "name":"jdk8-status.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
             "description":"JDK是Java Development Kit 的缩写，是Sun Microsystems针对Java开发员的产品。"
         }
     ]
