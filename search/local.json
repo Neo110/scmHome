@@ -660,13 +660,33 @@
         {
             "gender": "Jdk8",
             "name": {
-                "title": "Jdk8 - Macos"
+                "title": "Jdk8 - Windows"
             },
             "email": "gabin.leclerc@example.com",
             "download":[
                 {
-                    "name":"jdk8-Macos.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk/jdk8-Macos.zip",
+                    "name":"jdk8-windows.z01",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.z01",
+                    "version":"v1.8",
+                    "tags":["jdk","windows"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"jdk8-windows.z02",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.z02",
+                    "version":"v1.8",
+                    "tags":["jdk","windows"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"jdk8-windows.z03",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.z03",
+                    "version":"v1.8",
+                    "tags":["jdk","windows"],
+                    "absolutePath":"./app"
+                },{
+                    "name":"jdk8-windows.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.zip",
                     "version":"v1.8",
                     "tags":["jdk","windows"],
                     "absolutePath":"./app"
@@ -681,7 +701,7 @@
                 "url":"https://scm.chusen.tech//search/tag/nginx",
                 "color":"cyan"
             },{
-                "name":"Macos平台",
+                "name":"Windows平台",
                 "color":"cyan"
             },{
                 "name":"版权:MIT",
