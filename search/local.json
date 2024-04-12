@@ -465,6 +465,9 @@
             },{
                 "name":"内容:免费",
                 "color":"processing"
+            },{
+                "name":"大小:4.6M",
+                "color":"processing"
             }],
             "conf":{
                 "key":"crontab-windows",
@@ -529,10 +532,17 @@
             "email": "luisa.fuentes@example.com",
             "download":[
                 {
-                    "name":"mysql-5.7.27-Macos.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql/mysql-5.7.27-Macos.zip",
+                    "name":"mysql5-windows.z01",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql/mysql5-windows.z01",
                     "version":"v5.7.27",
-                    "tags":["mysql","macos"],
+                    "tags":["mysql","windows"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"mysql5-windows.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql/mysql5-windows.zip",
+                    "version":"v5.7.27",
+                    "tags":["mysql","windows"],
                     "absolutePath":"./app"
                 }
             ],
@@ -542,10 +552,10 @@
             "nat": "ES",
             "tags":[{
                 "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "url":"https://scm.chusen.tech//search/tag/crontab",
                 "color":"green"
             },{
-                "name":"Macos平台",
+                "name":"Windows平台",
                 "color":"cyan"
             },{
                 "name":"版权:MIT",
@@ -553,7 +563,61 @@
             },{
                 "name":"内容:免费",
                 "color":"processing"
+            },{
+                "name":"大小:84M",
+                "color":"processing"
             }],
+            "conf":{
+                "key":"mysql-windows",
+                "name":"Mysql5数据库",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"mysql-start.bat",
+                "stopScript":"mysql-stop.bat",
+                "restartScript":"mysql-restart.bat",
+                "statusScript":"mysql-status.bat",
+                "conffile":[{"name":"config.ini","path":"./app/mysql/config.ini"}],
+                "logfile":[{"name":"crontab.log","path":"./app/mysql/scm-crontab.log"}]
+            },
+            "script":[
+                {
+                    "key":"mysql-start.bat",
+                    "name":"mysql-start.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"mysql-stop.bat",
+                    "name":"mysql-stop.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"mysql-restart.bat",
+                    "name":"mysql-restart.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"mysql-status.bat",
+                    "name":"mysql-status.bat",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
             "description":"MySQL是一个关系型数据库管理系统，"
         },
         {
