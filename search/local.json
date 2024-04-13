@@ -851,6 +851,126 @@
                 }
             ],
             "description":"Nginx是一款轻量级的Web服务器/反向代理服务器。"
+        },
+        {
+            "gender": "SW",
+            "name": {
+                "title": "SW屏幕水印 1.0.1 - Macos"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name":"sw-macos.z01",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z01",
+                    "version":"v1.25.4",
+                    "tags":["sw","Macos"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"sw-macos.z02",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z02",
+                    "version":"v1.25.4",
+                    "tags":["sw","Macos"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"sw-macos.z03",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z03",
+                    "version":"v1.25.4",
+                    "tags":["sw","Macos"],
+                    "absolutePath":"./app"
+                },{
+                    "name":"sw-macos.z04",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z04",
+                    "version":"v1.25.4",
+                    "tags":["sw","Macos"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"sw-macos.z05",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z05",
+                    "version":"v1.25.4",
+                    "tags":["sw","Macos"],
+                    "absolutePath":"./app"
+                },
+                {
+                    "name":"sw-macos.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.zip",
+                    "version":"v1.25.4",
+                    "tags":["sw","Macos"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/service.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/sw",
+                "color":"green"
+            },{
+                "name":"Macos平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容:免费",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"sw-macos",
+                "name":"SW屏幕水印",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"sw-start.sh",
+                "stopScript":"sw-stop.sh",
+                "restartScript":"sw-restart.sh",
+                "statusScript":"sw-status.sh",
+                "conffile":[{"name":"config.ini","path":"./app/sw/config.ini"}],
+                "logfile":[{"name":"sw.log","path":"./app/sw/scm-sw.log"}]
+            },
+            "script":[
+                {
+                    "key":"sw-start.sh",
+                    "name":"sw-start.bat",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"sw-stop.sh",
+                    "name":"sw-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"sw-restart.sh",
+                    "name":"sw-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"sw-status.sh",
+                    "name":"sw-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"SW屏幕水印支持自定义时间显示在最顶层。"
         }
     ]
 }
