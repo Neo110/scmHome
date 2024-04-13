@@ -820,7 +820,7 @@
                 {
                     "key":"nginx-start.sh",
                     "name":"nginx-start.sh",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -828,7 +828,7 @@
                 {
                     "key":"nginx-stop.sh",
                     "name":"nginx-stop.sh",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -836,7 +836,7 @@
                 {
                     "key":"nginx-restart.sh",
                     "name":"nginx-restart.sh",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
@@ -844,7 +844,7 @@
                 {
                     "key":"nginx-status.sh",
                     "name":"nginx-status.sh",
-                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
