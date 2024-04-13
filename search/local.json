@@ -765,6 +765,92 @@
                 }
             ],
             "description":"JDK是Java Development Kit 的缩写，是Sun Microsystems针对Java开发员的产品。"
+        },
+        {
+            "gender": "Nginx",
+            "name": {
+                "title": "Nginx 1.25.4 - Macos"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name":"nginx-1.25.4.zip",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx-macos-1.25.4.zip",
+                    "version":"v1.25.4",
+                    "tags":["nginx","Macos"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/nginx.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"green"
+            },{
+                "name":"Macos平台",
+                "color":"cyan"
+            },{
+                "name":"版权:MIT",
+                "color":"success"
+            },{
+                "name":"内容:免费",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"nginx-macos",
+                "name":"Nginx",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/nginx.svg",
+                "content":"",
+                "startScript":"nginx-start.sh",
+                "stopScript":"nginx-stop.sh",
+                "restartScript":"nginx-restart.sh",
+                "statusScript":"nginx-status.sh",
+                "conffile":[{"name":"nginx.conf","path":"./app/nginx/conf/nginx.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/nginx/logs/access.log"},{"name":"error.log","path":"./app/nginx/logs/error.log"}]
+            },
+            "script":[
+                {
+                    "key":"nginx-start.sh",
+                    "name":"nginx-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"nginx-stop.sh",
+                    "name":"nginx-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"nginx-restart.sh",
+                    "name":"nginx-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"nginx-status.sh",
+                    "name":"nginx-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["sh"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"Nginx是一款轻量级的Web服务器/反向代理服务器。"
         }
     ]
 }
