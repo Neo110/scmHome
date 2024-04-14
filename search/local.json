@@ -879,26 +879,6 @@
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
-                },{
-                    "name":"sw-macos.z0.004",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.004",
-                    "version":"v1.25.4",
-                    "tags":["sw","Macos"],
-                    "absolutePath":"./app"
-                },
-                {
-                    "name":"sw-macos.z0.005",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.005",
-                    "version":"v1.25.4",
-                    "tags":["sw","Macos"],
-                    "absolutePath":"./app"
-                },
-                {
-                    "name":"sw-macos.z0.006",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.006",
-                    "version":"v1.25.4",
-                    "tags":["sw","Macos"],
-                    "absolutePath":"./app"
                 }
             ],
             "picture": {
