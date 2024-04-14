@@ -860,42 +860,42 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"sw-macos.z01",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z01",
+                    "name":"sw-macos.z0.001",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.001",
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
                 },
                 {
-                    "name":"sw-macos.z02",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z02",
+                    "name":"sw-macos.z0.002",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.002",
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
                 },
                 {
-                    "name":"sw-macos.z03",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z03",
+                    "name":"sw-macos.z0.003",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.003",
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
                 },{
-                    "name":"sw-macos.z04",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z04",
+                    "name":"sw-macos.z0.004",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.004",
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
                 },
                 {
-                    "name":"sw-macos.z05",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z05",
+                    "name":"sw-macos.z0.005",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.005",
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
                 },
                 {
-                    "name":"sw-macos.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.zip",
+                    "name":"sw-macos.z0.006",
+                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.006",
                     "version":"v1.25.4",
                     "tags":["sw","Macos"],
                     "absolutePath":"./app"
