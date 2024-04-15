@@ -18,7 +18,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/powershell.png"
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -49,7 +49,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/powershell.png"
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "description":"停止nginx服务"
         },
@@ -60,7 +60,7 @@
             },
             "email": "zsvc@163.com",
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/powershell.png"
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
             "description":"重启nginx服务"
@@ -72,7 +72,7 @@
             },
             "email": "zsvc@163.com",
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/powershell.png"
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
             "description":"状态nginx服务"
@@ -95,7 +95,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/shell.png"
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
             },
             "nat": "UA",
             "tags":[{
@@ -126,7 +126,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/shell.png"
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
             },
             "description":"停止nginx服务"
         },
@@ -146,7 +146,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/shell.png"
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
             },
             "nat": "FR",
             "description":"重启nginx服务"
@@ -167,7 +167,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/shell.png"
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
             },
             "nat": "FR",
             "description":"状态nginx服务"
