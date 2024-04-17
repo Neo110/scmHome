@@ -1109,9 +1109,9 @@
             "description":"JDK是Java Development Kit 的缩写，是Sun Microsystems针对Java开发员的产品。"
         },
         {
-            "gender": "minio",
+            "gender": "Minio",
             "name": {
-                "title": "minio - windows"
+                "title": "Minio - windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
