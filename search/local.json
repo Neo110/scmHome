@@ -8,11 +8,14 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"nginx-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx-windows.zip",
-                    "version":"v1.25.4",
-                    "tags":["nginx","Windows"],
-                    "absolutePath":"./app"
+                    "name": "nginx-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx-windows/nginx-windows-v1.0.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "nginx",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
@@ -94,11 +97,14 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"redis-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/redis/redis-windows.zip",
-                    "version":"v1.25.4",
-                    "tags":["redis","Windows"],
-                    "absolutePath":"./app"
+                    "name": "redis-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/redis-windows/redis-windows-v1.0.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "redis",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
