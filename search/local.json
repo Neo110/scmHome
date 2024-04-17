@@ -23,15 +23,8 @@
             },
             "nat": "UA",
             "tags":[{
-                "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"green"
-            },{
                 "name":"Windows平台",
                 "color":"cyan"
-            },{
-                "name":"版权:MIT",
-                "color":"success"
             },{
                 "name":"内容:免费",
                 "color":"processing"
