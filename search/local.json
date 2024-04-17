@@ -23,7 +23,7 @@
             },
             "nat": "UA",
             "tags":[{
-                "name":"Windows平台",
+                "name":"Windows平台1.4.2",
                 "color":"cyan"
             },{
                 "name":"内容:免费",
