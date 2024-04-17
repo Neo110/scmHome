@@ -184,51 +184,51 @@
             "download": [
                 {
                     "name": "sw-windows-v1.0.0.z0.001",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw-windows/sw-windows-v1.0.0.z0.001",
                     "version": "v1.0.0",
                     "tags": [
                         "sw",
-                        "Windows"
+                        "windows"
                     ],
                     "absolutePath": "./app"
                 },
                 {
                     "name": "sw-windows-v1.0.0.z0.002",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-windows-v1.0.0.z0.002",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw-windows/sw-windows-v1.0.0.z0.002",
                     "version": "v1.0.0",
                     "tags": [
                         "sw",
-                        "Windows"
+                        "windows"
                     ],
                     "absolutePath": "./app"
                 },
                 {
                     "name": "sw-windows-v1.0.0.z0.003",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-windows-v1.0.0.z0.003",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw-windows/sw-windows-v1.0.0.z0.003",
                     "version": "v1.0.0",
                     "tags": [
                         "sw",
-                        "Windows"
+                        "windows"
                     ],
                     "absolutePath": "./app"
                 },
                 {
                     "name": "sw-windows-v1.0.0.z0.004",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-windows-v1.0.0.z0.004",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw-windows/sw-windows-v1.0.0.z0.004",
                     "version": "v1.0.0",
                     "tags": [
                         "sw",
-                        "Windows"
+                        "windows"
                     ],
                     "absolutePath": "./app"
                 },
                 {
                     "name": "sw-windows-v1.0.0.z0.005",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-windows-v1.0.0.z0.005",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw-windows/sw-windows-v1.0.0.z0.005",
                     "version": "v1.0.0",
                     "tags": [
                         "sw",
-                        "Windows"
+                        "windows"
                     ],
                     "absolutePath": "./app"
                 }
@@ -305,95 +305,6 @@
             "description":"SW屏幕水印支持自定义时间显示在最顶层。"
         },
         {
-            "gender": "push推送服务",
-            "name": {
-                "title": "推送服务 1.4.2 - Macos",
-                "first": "local Rayina",
-                "last": "local Pochinok"
-            },
-            "email": "rayina.pochinok@example.com",
-            "download":[
-                {
-                    "name":"scm-v1.0.13.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/v1.0.13/scm-v1.0.13.zip",
-                    "version":"v1.0.13",
-                    "tags":["push","macos"],
-                    "absolutePath":"./app/push"
-                }
-            ],
-            "picture": {
-                "large": "https://scm.chusen.tech//search/img/service.svg"
-            },
-            "nat": "UA",
-            "tags":[{
-                "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"green"
-            },{
-                "name":"开发者:未知",
-                "color":"cyan"
-            },{
-                "name":"版权:MIT",
-                "color":"success"
-            },{
-                "name":"内容:免费",
-                "color":"processing"
-            }],
-            "conf":{
-                "key":"push-macos",
-                "name":"推送服务",
-                "status":"停止",
-                "tray":true,
-                "startSort":1,
-                "tags":[],
-                "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech/search/img/service.svg",
-                "content":"",
-                "startScript":"push-start.sh",
-                "stopScript":"push-stop.sh",
-                "restartScript":"push-restart.sh",
-                "statusScript":"push-status.sh",
-                "conffile":[{"name":"push.conf","path":"./app/push/conf/push.conf"}],
-                "logfile":[{"name":"push.log","path":"./app/push/logs/push.log"}]
-            },
-            "script":[
-                {
-                    "key":"push-start.sh",
-                    "name":"push-start.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
-                },
-                {
-                    "key":"push-stop.sh",
-                    "name":"push-stop.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
-                },
-                {
-                    "key":"push-restart.sh",
-                    "name":"push-restart.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
-                },
-                {
-                    "key":"push-status.sh",
-                    "name":"push-status.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.png",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
-                }
-            ],
-            "caution":"请确保nginx已经安装",
-            "description":"通用推送服务程序，支持钉钉，微信，等平台"
-        },
-        {
             "gender": "OpenSSH",
             "name": {
                 "title": "OpenSSH 1.25.4 - Windows"
@@ -401,11 +312,14 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"ssh-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/ssh/ssh-windows.zip",
-                    "version":"v1.25.4",
-                    "tags":["ssh","Windows"],
-                    "absolutePath":"./app"
+                    "name": "ssh-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/ssh-windows/ssh-windows-v1.0.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "ssh",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
@@ -487,11 +401,14 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"crontab-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/crontab/crontab-windows.zip",
-                    "version":"v1.25.4",
-                    "tags":["crontab","Windows"],
-                    "absolutePath":"./app"
+                    "name": "crontab-wondows-v1.0.1.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/crontab-wondows/crontab-wondows-v1.0.1.z0.001",
+                    "version": "v1.0.1",
+                    "tags": [
+                        "crontab",
+                        "wondows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
@@ -505,9 +422,6 @@
             },{
                 "name":"Windows平台",
                 "color":"cyan"
-            },{
-                "name":"版权:MIT",
-                "color":"success"
             },{
                 "name":"内容:免费",
                 "color":"processing"
@@ -578,18 +492,154 @@
             "email": "luisa.fuentes@example.com",
             "download":[
                 {
-                    "name":"mysql5-windows.z01",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql/mysql5-windows.z01",
-                    "version":"v5.7.27",
-                    "tags":["mysql","windows"],
-                    "absolutePath":"./app"
+                    "name": "mysql5-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 },
                 {
-                    "name":"mysql5-windows.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql/mysql5-windows.zip",
-                    "version":"v5.7.27",
-                    "tags":["mysql","windows"],
-                    "absolutePath":"./app"
+                    "name": "mysql5-windows-v1.0.0.z0.002",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.002",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.003",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.003",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.004",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.004",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.005",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.005",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.006",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.006",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.007",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.007",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.008",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.008",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.009",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.009",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.010",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.010",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.011",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.011",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.012",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.012",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.013",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.013",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.014",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.014",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "mysql5-windows-v1.0.0.z0.015",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/mysql5-windows/mysql5-windows-v1.0.0.z0.015",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "mysql5",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
@@ -667,43 +717,6 @@
             "description":"MySQL是一个关系型数据库管理系统，"
         },
         {
-            "gender": "Redis",
-            "name": {
-                "title": "Redis - Macos",
-                "first": "Gabin",
-                "last": "Leclerc"
-            },
-            "email": "gabin.leclerc@example.com",
-            "download":[
-                {
-                    "name":"redis-5.7.27-Macos.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/redis/redis-5.7.27-Macos.zip",
-                    "version":"v5.7.27",
-                    "tags":["redis","macos"],
-                    "absolutePath":"./app"
-                }
-            ],
-            "picture": {
-                "large": "https://scm.chusen.tech//search/img/redis.svg"
-            },
-            "nat": "FR",
-            "tags":[{
-                "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"cyan"
-            },{
-                "name":"Macos平台",
-                "color":"cyan"
-            },{
-                "name":"版权:MIT",
-                "color":"success"
-            },{
-                "name":"内容:免费",
-                "color":"processing"
-            }],
-            "description":"Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。"
-        },
-        {
             "gender": "Jdk8",
             "name": {
                 "title": "Jdk8 - Windows"
@@ -711,31 +724,314 @@
             "email": "gabin.leclerc@example.com",
             "download":[
                 {
-                    "name":"jdk8-windows.z01",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.z01",
-                    "version":"v1.8",
-                    "tags":["jdk","windows"],
-                    "absolutePath":"./app"
+                    "name": "jdk8-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 },
                 {
-                    "name":"jdk8-windows.z02",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.z02",
-                    "version":"v1.8",
-                    "tags":["jdk","windows"],
-                    "absolutePath":"./app"
+                    "name": "jdk8-windows-v1.0.0.z0.002",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.002",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 },
                 {
-                    "name":"jdk8-windows.z03",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.z03",
-                    "version":"v1.8",
-                    "tags":["jdk","windows"],
-                    "absolutePath":"./app"
-                },{
-                    "name":"jdk8-windows.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8/jdk8-windows.zip",
-                    "version":"v1.8",
-                    "tags":["jdk","windows"],
-                    "absolutePath":"./app"
+                    "name": "jdk8-windows-v1.0.0.z0.003",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.003",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.004",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.004",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.005",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.005",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.006",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.006",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.007",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.007",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.008",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.008",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.009",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.009",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.010",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.010",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.011",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.011",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.012",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.012",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.013",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.013",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.014",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.014",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.015",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.015",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.016",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.016",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.017",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.017",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.018",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.018",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.019",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.019",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.020",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.020",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.021",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.021",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.022",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.022",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.023",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.023",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.024",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.024",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.025",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.025",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.026",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.026",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.027",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.027",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.028",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.028",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.029",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.029",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.030",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.030",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "jdk8-windows-v1.0.0.z0.031",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/jdk8-windows/jdk8-windows-v1.0.0.z0.031",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "jdk8",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
@@ -813,118 +1109,51 @@
             "description":"JDK是Java Development Kit 的缩写，是Sun Microsystems针对Java开发员的产品。"
         },
         {
-            "gender": "Nginx",
+            "gender": "minio",
             "name": {
-                "title": "Nginx 1.25.4 - Macos"
+                "title": "minio - windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name":"nginx-1.25.4.zip",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx/nginx-macos-1.25.4.zip",
-                    "version":"v1.25.4",
-                    "tags":["nginx","Macos"],
-                    "absolutePath":"./app"
-                }
-            ],
-            "picture": {
-                "large": "https://scm.chusen.tech//search/img/nginx.svg"
-            },
-            "nat": "UA",
-            "tags":[{
-                "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"green"
-            },{
-                "name":"Macos平台",
-                "color":"cyan"
-            },{
-                "name":"版权:MIT",
-                "color":"success"
-            },{
-                "name":"内容:免费",
-                "color":"processing"
-            }],
-            "conf":{
-                "key":"nginx-macos",
-                "name":"Nginx",
-                "status":"停止",
-                "tray":true,
-                "startSort":1,
-                "tags":[],
-                "version":"v1.4.2",
-                "icon":"https://scm.chusen.tech//search/img/nginx.svg",
-                "content":"",
-                "startScript":"nginx-start.sh",
-                "stopScript":"nginx-stop.sh",
-                "restartScript":"nginx-restart.sh",
-                "statusScript":"nginx-status.sh",
-                "conffile":[{"name":"nginx.conf","path":"./app/nginx/conf/nginx.conf"}],
-                "logfile":[{"name":"access.log","path":"./app/nginx/logs/access.log"},{"name":"error.log","path":"./app/nginx/logs/error.log"}]
-            },
-            "script":[
-                {
-                    "key":"nginx-start.sh",
-                    "name":"nginx-start.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
+                    "name": "minio-windows-v1.0.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/minio-windows/minio-windows-v1.0.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "minio",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 },
                 {
-                    "key":"nginx-stop.sh",
-                    "name":"nginx-stop.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
+                    "name": "minio-windows-v1.0.0.z0.002",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/minio-windows/minio-windows-v1.0.0.z0.002",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "minio",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 },
                 {
-                    "key":"nginx-restart.sh",
-                    "name":"nginx-restart.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
+                    "name": "minio-windows-v1.0.0.z0.003",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/minio-windows/minio-windows-v1.0.0.z0.003",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "minio",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 },
                 {
-                    "key":"nginx-status.sh",
-                    "name":"nginx-status.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
-                    "tags": ["sh"],
-                    "version":"v1.0.0",
-                    "absolutePath":"./app/"
-                }
-            ],
-            "description":"Nginx是一款轻量级的Web服务器/反向代理服务器。"
-        },
-        {
-            "gender": "SW",
-            "name": {
-                "title": "SW屏幕水印 1.0.1 - Macos"
-            },
-            "email": "rayina.pochinok@example.com",
-            "download":[
-                {
-                    "name":"sw-macos.z0.001",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.001",
-                    "version":"v1.25.4",
-                    "tags":["sw","Macos"],
-                    "absolutePath":"./app"
-                },
-                {
-                    "name":"sw-macos.z0.002",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.002",
-                    "version":"v1.25.4",
-                    "tags":["sw","Macos"],
-                    "absolutePath":"./app"
-                },
-                {
-                    "name":"sw-macos.z0.003",
-                    "url":"https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/sw/sw-macos.z0.003",
-                    "version":"v1.25.4",
-                    "tags":["sw","Macos"],
-                    "absolutePath":"./app"
+                    "name": "minio-windows-v1.0.0.z0.004",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/minio-windows/minio-windows-v1.0.0.z0.004",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "minio",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
                 }
             ],
             "picture": {
@@ -933,21 +1162,17 @@
             "nat": "UA",
             "tags":[{
                 "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/sw",
                 "color":"green"
             },{
-                "name":"Macos平台",
+                "name":"windows平台",
                 "color":"cyan"
-            },{
-                "name":"版权:MIT",
-                "color":"success"
             },{
                 "name":"内容:免费",
                 "color":"processing"
             }],
             "conf":{
-                "key":"sw-macos",
-                "name":"SW屏幕水印",
+                "key":"minio-windows",
+                "name":"Minio",
                 "status":"停止",
                 "tray":true,
                 "startSort":1,
@@ -955,48 +1180,49 @@
                 "version":"v1.4.2",
                 "icon":"https://scm.chusen.tech//search/img/service.svg",
                 "content":"",
-                "startScript":"sw-start.sh",
-                "stopScript":"sw-stop.sh",
-                "restartScript":"sw-restart.sh",
-                "statusScript":"sw-status.sh",
-                "conffile":[{"name":"config.ini","path":"./app/sw/config.ini"}],
-                "logfile":[{"name":"sw.log","path":"./app/sw/scm-sw.log"}]
+                "startScript":"minio-start.sh",
+                "stopScript":"minio-stop.sh",
+                "restartScript":"minio-restart.sh",
+                "statusScript":"minio-status.sh",
+                "conffile":[{"name":"minio.conf","path":"./app/minio/conf/nginx.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/minio/logs/access.log"},
+                        {"name":"error.log","path":"./app/minio/logs/error.log"}]
             },
             "script":[
                 {
-                    "key":"sw-start.sh",
-                    "name":"sw-start.bat",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "key":"minio-start.sh",
+                    "name":"minio-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
                 {
-                    "key":"sw-stop.sh",
-                    "name":"sw-stop.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "key":"minio-stop.sh",
+                    "name":"minio-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
                 {
-                    "key":"sw-restart.sh",
-                    "name":"sw-restart.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "key":"minio-restart.sh",
+                    "name":"minio-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 },
                 {
-                    "key":"sw-status.sh",
-                    "name":"sw-status.sh",
-                    "icon":"https://scm.chusen.tech//search/img/shell.svg",
+                    "key":"minio-status.sh",
+                    "name":"minio-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
                     "tags": ["sh"],
                     "version":"v1.0.0",
                     "absolutePath":"./app/"
                 }
             ],
-            "description":"SW屏幕水印支持自定义时间显示在最顶层。"
+            "description":"Minio是一款轻量级的资源服务器。"
         }
     ]
 }
