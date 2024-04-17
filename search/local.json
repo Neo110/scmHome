@@ -9,7 +9,7 @@
             "download":[
                 {
                     "name": "nginx-windows-v1.0.0.z0.001",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx-windows/nginx-windows-v1.0.0.zip",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx-windows/nginx-windows-v1.0.0.z0.001",
                     "version": "v1.0.0",
                     "tags": [
                         "nginx",
@@ -23,7 +23,11 @@
             },
             "nat": "UA",
             "tags":[{
-                "name":"Windows平台1.4.2",
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "color":"green"
+            },{
+                "name":"Windows平台",
                 "color":"cyan"
             },{
                 "name":"内容:免费",
