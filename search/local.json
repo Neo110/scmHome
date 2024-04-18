@@ -8,8 +8,8 @@
             "email": "rayina.pochinok@example.com",
             "download":[
                 {
-                    "name": "nginx-windows-v1.0.0.z0.001",
-                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx-windows/nginx-windows-v1.0.0.z0.001",
+                    "name": "nginx-windows-v1.0.0.z0.000",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/nginx-windows/nginx-windows-v1.0.0.z0.000",
                     "version": "v1.0.0",
                     "tags": [
                         "nginx",
