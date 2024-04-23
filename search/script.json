@@ -192,15 +192,6 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "UA",
-            "tags":[{
-                "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/jk",
-                "color":"#2db7f5"
-            },{
-                "name":"开发者:未知",
-                "url":"https://scm.chusen.tech//search/tag/jk",
-                "color":"#1677ff"
-            }],
             "caution":"请确保jk已经安装",
             "description":"启动jk服务"
         },
