@@ -182,7 +182,7 @@
             "download":[
                 {
                     "name":"jk-start.bat",
-                    "url":"https://scm.chusen.tech//search/script/shell/jk-start.bat",
+                    "url":"https://scm.chusen.tech//search/script/bat/jk-start.bat",
                     "version":"v1.0.1",
                     "tags":["jk","start"],
                     "absolutePath":"./app"
@@ -223,27 +223,6 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "description":"停止jk服务"
-        },
-        {
-            "type": "script",
-            "name": {
-                "title": "jk-restart.bat"
-            },
-            "email": "zsvc@163.com",
-            "download":[
-                {
-                    "name":"jk-restart.bat",
-                    "url":"https://scm.chusen.tech//search/script/bat/jk-stop.bat",
-                    "version":"v1.0.0",
-                    "tags":["jk","restart"],
-                    "absolutePath":"./app"
-                }
-            ],
-            "picture": {
-                "large": "https://scm.chusen.tech//search/img/powershell.svg"
-            },
-            "nat": "FR",
-            "description":"重启jk服务"
         },
         {
             "type": "script",
