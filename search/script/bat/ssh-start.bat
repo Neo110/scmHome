@@ -9,15 +9,17 @@ powershell.exe -ExecutionPolicy Bypass -File .\OpenSSH\install-sshd.ps1
 netsh advfirewall firewall add rule name=sshd dir=in action=allow protocol=TCP localport=22
 
 net start sshd
-
 echo %errorlevel%
 if errorlevel 1 (
-	echo.
-	echo OpenSSH konnte nicht gestartet werden
-	echo OpenSSH is start failed	
+	goto error
 ) else (
-	echo.
-	echo OpenSSH is start success
+	goto finish
 )
 
-REM endlocal
+:error
+echo OpenSSH is start failed.
+exit /b 1
+
+:finish
+echo OpenSSH is start success.
+exit /b 0

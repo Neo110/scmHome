@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 
 jps -l | findstr /C:"org.apache.catalina.startup.Bootstrap" > nul
 if %errorlevel% == 1 (

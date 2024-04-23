@@ -4,22 +4,22 @@ echo OpenSSH shutdowm ...
 
 tasklist | findstr /C:"sshd.exe" > nul
 if %errorlevel% == 1 (
-    echo OpenSSH is stop success
+    goto error
 ) else (
+	
     net stop sshd
+	if errorlevel 1 (
+		goto error
+	) else (
+		goto finish
+	)
 
-	if errorlevel 1 goto error
-	goto finish
-
-	:error
-	echo.
-	echo OpenSSH is stop failed
-	echo OpenSSH could not be started
-	pause
-
-	:finish
-	echo.
-	echo OpenSSH is stop success
 )
 
+:error
+echo OpenSSH is stop failed.
+exit /b 1
 
+:finish
+echo OpenSSH is stop success.
+exit /b 0

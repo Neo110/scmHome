@@ -1,5 +1,5 @@
 @echo off
-tasklist | findstr /C:"minio.exe" > nul
+jps -l | findstr /C:"agent.jar" > nul
 if %errorlevel% == 1 (
     echo Jar program is not running.
 ) else (

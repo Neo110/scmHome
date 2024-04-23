@@ -12,11 +12,9 @@ if errorlevel 1 goto error
 goto finish
 
 :error
-echo.
-echo MySQL konnte nicht gestartet werden
-echo MySQL could not be started
-pause
+echo MySQL is stop failed.
+exit /b 1
 
 :finish
-echo.
-echo MySQL is start success!
+echo MySQL is start success.
+exit /b 0

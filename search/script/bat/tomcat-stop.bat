@@ -10,15 +10,17 @@ echo "CATALINA_HOME=%CATALINA_HOME%"
 REM "%CATALINA_HOME%\bin\catalina.bat" stop
 call "%CATALINA_HOME%\bin\shutdown.bat"
 
-if errorlevel 1 goto error
-goto finish
+if errorlevel 1 (
+	goto error
+) else (
+	goto finish
+)
+
 
 :error
-echo.
-echo Tomcat is stop faild
-echo Tomcat could not be started
-pause
+echo Tomcat is stop faild.
+exit /b 1
 
 :finish
-echo.
-echo Tomcat is stop success
+echo Tomcat is stop success.
+exit /b 0

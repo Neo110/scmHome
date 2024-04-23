@@ -4,15 +4,16 @@ echo crontab shutdowm ...
 
 start taskkill -F -im  crontab.exe
 
-if errorlevel 1 goto error
-goto finish
+if errorlevel 1 (
+	goto error
+) else (
+	goto finish
+)
 
 :error
-echo.
-echo crontab is stop failed
-echo crontab could not be started
-pause
+echo crontab is stop failed.
+exit /b 1
 
 :finish
-echo.
-echo crontab is stop success
+echo crontab is stop success.
+exit /b 0

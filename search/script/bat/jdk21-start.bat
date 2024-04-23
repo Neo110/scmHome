@@ -1,6 +1,6 @@
 @echo off
 
-set PWD=%~dp0JDK11
+set PWD=%~dp0JDK21
 ::set "PWD_FORMAT=%PWD:\=/%"
 set "PWD_FORMAT=%PWD%"
 echo %path% >>%PWD_FORMAT%\default.path.bak.txt
@@ -42,13 +42,12 @@ setx CLASSPATH %CLASSPATH% /m
 setx Path "%newPath%" /m
 
 rem -- refresh env ---
-call "sjdk\renv.exe"
+::call "sjdk\renv.exe"
 
 ::if errorlevel 1 goto error
 goto finish
 
 :error
-echo.
 echo jdk8 is start failed.
 exit /b 1
 

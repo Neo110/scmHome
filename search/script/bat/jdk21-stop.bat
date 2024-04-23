@@ -1,6 +1,6 @@
 @echo off
 
-set PWD=%~dp0JDK8
+set PWD=%~dp0JDK21
 ::set "PWD_FORMAT=%PWD:\=/%"
 set "PWD_FORMAT=%PWD%"
 echo %path% >>%PWD_FORMAT%\default.path.bak.txt

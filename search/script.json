@@ -171,6 +171,100 @@
             },
             "nat": "FR",
             "description":"状态nginx服务"
+        },
+
+        {
+            "type": "script",
+            "name": {
+                "title": "jk-start.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"jk-start.sh",
+                    "url":"https://scm.chusen.tech//search/script/shell/jk-start.sh",
+                    "version":"v1.0.1",
+                    "tags":["jk","start"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "url":"https://scm.chusen.tech//search/tag/jk",
+                "color":"#2db7f5"
+            },{
+                "name":"开发者:未知",
+                "url":"https://scm.chusen.tech//search/tag/jk",
+                "color":"#1677ff"
+            }],
+            "caution":"请确保jk已经安装",
+            "description":"启动jk服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "jk-stop.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"jk-stop.sh",
+                    "url":"https://scm.chusen.tech//search/script/bat/jk-stop.bat",
+                    "version":"v1.0.0",
+                    "tags":["jk","stop"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
+            },
+            "description":"停止jk服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "jk-restart.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"jk-restart.sh",
+                    "url":"https://scm.chusen.tech//search/script/bat/jk-stop.bat",
+                    "version":"v1.0.0",
+                    "tags":["jk","restart"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/shell.svg"
+            },
+            "nat": "FR",
+            "description":"重启jk服务"
+        },
+        {
+            "type": "script",
+            "name": {
+                "title": "jk-status.sh"
+            },
+            "email": "zsvc@163.com",
+            "download":[
+                {
+                    "name":"jk-status.sh",
+                    "url":"https://scm.chusen.tech//search/script/bat/jk-status.bat",
+                    "version":"v1.0.0",
+                    "tags":["jk","status"],
+                    "absolutePath":"./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
+            },
+            "nat": "FR",
+            "description":"状态jk服务"
         }
     ]
 }

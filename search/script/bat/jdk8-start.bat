@@ -48,10 +48,8 @@ rem -- refresh env ---
 goto finish
 
 :error
-echo.
-echo jdk8 is start failed
-echo jdk8 could not be started
-pause
+echo jdk8 is start failed.
+exit /b 1
 
 :finish
 echo.
@@ -59,4 +57,5 @@ echo JAVA_HOME=%JAVA_HOME%>%PWD_FORMAT%\conf.ini
 echo CLASSPATH=%CLASSPATH%>>%PWD_FORMAT%\conf.ini
 echo Path=%newPath%>>%PWD_FORMAT%\conf.ini
 
-echo jdk8 is start success!
+echo jdk8 is start success.
+exit /b 0

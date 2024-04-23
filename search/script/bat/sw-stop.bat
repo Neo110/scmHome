@@ -2,17 +2,18 @@
 cd /D %~dp0
 echo sw shutdowm ...
 
-start taskkill -F -im  sw.exe
+start /B taskkill -F -im  sw.exe
 
-if errorlevel 1 goto error
-goto finish
+if %errorlevel% == 1 (
+	goto error
+) else (
+	goto finish
+)
 
 :error
-echo.
-echo sw is stop failed
-echo sw could not be started
-pause
+echo sw is stop failed.
+exit /b 1
 
 :finish
-echo.
-echo sw is stop success
+echo sw is stop success.
+exit /b 0

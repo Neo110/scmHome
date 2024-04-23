@@ -7,17 +7,17 @@ setlocal EnableDelayedExpansion
 cd dingding
 start /B "dingding" dingding.exe
 
-if errorlevel 1 goto error
-goto finish
+if errorlevel 1 (
+	goto error
+) else (
+	goto finish
+)
+
 
 :error
-echo.
-echo dingding is start failed
-echo dingding could not be started
-pause
+echo dingding is start failed.
+exit /b 1
 
 :finish
-echo.
-echo dingding is start success
-
-endlocal
+echo dingding is start success.
+exit /b 0

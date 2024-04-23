@@ -2,22 +2,19 @@
 chcp 65001
 cd /D %~dp0
 
-setlocal EnableDelayedExpansion 
-
 cd sw
-start /B "sw" sw.exe
+start /B sw.exe -p ./sw
 
-if errorlevel 1 goto error
-goto finish
+if %errorlevel% == 1 (
+	goto error
+) else (
+	goto finish
+)
 
 :error
-echo.
-echo sw is start failed
-echo sw could not be started
-pause
+echo sw is start failed.
+exit /b 1
 
 :finish
-echo.
-echo sw is start success
-
-endlocal
+echo sw is start success.
+exit /b 0

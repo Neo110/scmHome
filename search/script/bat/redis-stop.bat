@@ -2,18 +2,19 @@
 cd /D %~dp0
 echo Redis shutdowm ...
 
-
 start taskkill -F -im  redis-server.exe
 
-if errorlevel 1 goto error
-goto finish
+if errorlevel 1 (
+	goto error
+) else (
+	goto finish
+)
+
 
 :error
-echo.
-echo Redis is stop failed
-echo Redis could not be started
-pause
+echo Redis is stop failed.
+exit /b 1
 
 :finish
-echo.
-echo Redis is stop success
+echo Redis is stop success.
+exit /b 0

@@ -4,15 +4,16 @@ echo dingding shutdowm ...
 
 start taskkill -F -im  dingding.exe
 
-if errorlevel 1 goto error
-goto finish
+if errorlevel 1 (
+	goto error
+) else (
+	goto finish
+)
 
 :error
-echo.
-echo dingding is stop failed
-echo dingding could not be started
-pause
+echo dingding is stop failed.
+exit /b 1
 
 :finish
-echo.
-echo dingding is stop success
+echo dingding is stop success.
+exit /b 0

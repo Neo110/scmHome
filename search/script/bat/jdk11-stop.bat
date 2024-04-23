@@ -41,10 +41,8 @@ call "sjdk\renv.exe"
 goto finish
 
 :error
-echo.
-echo jdk11 is stop failed
-echo jdk11 could not be stoped
-pause
+echo jdk11 is stop failed.
+exit /b 1
 
 :finish
 echo.
@@ -52,4 +50,5 @@ echo Path=%nPath%>%PWD_FORMAT%\conf.ini
 echo JAVA_HOME=>>%PWD_FORMAT%\conf.ini
 echo CLASSPATH=>>%PWD_FORMAT%\conf.ini
 
-echo jdk11 is stop success
+echo jdk11 is stop success.
+exit /b 0

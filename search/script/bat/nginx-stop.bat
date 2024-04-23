@@ -1,19 +1,21 @@
 @echo off
+chcp 65001
 cd /D %~dp0
 echo Nginx shutdowm ...
 
+start nginx\nginx -s stop -p ./nginx
 
-start nginx-1.14.2\nginx -s stop -p ./nginx-1.14.2
+if errorlevel 1 (
+	goto error
+) else  (
+	goto finish
+)
 
-if errorlevel 1 goto error
-goto finish
 
 :error
-echo.
-echo Nginx is stop failed
-echo Nginx could not be started
-pause
+echo Nginx is stop failed.
+exit /b 1
 
 :finish
-echo.
-echo Nginx is stop success
+echo Nginx is stop success.
+exit /b 0

@@ -1,18 +1,21 @@
 @echo off
+chcp 65001
 cd /D %~dp0
 
-REM setlocal EnableDelayedExpansion 
+echo Nginx start ...
+ 
+start /B nginx\nginx.exe  -p ./nginx
 
-start /B "nginx" nginx-1.14.2\nginx.exe  -p ./nginx-1.14.2
-if errorlevel 1 goto error
-goto finish
+if errorlevel 1 (
+	goto error
+) else (
+	goto finish
+)
 
 :error
-echo.
-echo Nginx konnte nicht gestartet werden
-echo Nginx is start failed
-pause
+echo Nginx is start failed.
+exit /b 1
 
 :finish
-echo.
-echo Nginx is start success
+echo Nginx is start success.
+exit /b 0

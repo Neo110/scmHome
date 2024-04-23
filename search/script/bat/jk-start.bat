@@ -1,8 +1,9 @@
 @echo off
+chcp 65001
 cd /D %~dp0
-echo Minio shutdowm ...
 
-start taskkill -F -im  minio.exe
+cd C:\jk-katalon\
+start /MIN launch.bat
 
 if errorlevel 1 (
 	goto error
@@ -11,9 +12,9 @@ if errorlevel 1 (
 )
 
 :error
-echo Minio is stop failed.
+echo jk is start failed.
 exit /b 1
 
 :finish
-echo Minio is stop success.
+echo jk is start success.
 exit /b 0
