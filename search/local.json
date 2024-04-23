@@ -354,7 +354,7 @@
                 "stopScript":"ssh-stop.bat",
                 "restartScript":"ssh-restart.bat",
                 "statusScript":"ssh-status.bat",
-                "conffile":[{"name":"OpenSSH_user_password","path":"./app/ssh/config.bat"},{"name":"OpenSSH_conf","path":"./app/ssh/sshd_config"}],
+                "conffile":[{"name":"OpenSSH_conf","path":"./app/ssh/sshd_config"}],
                 "logfile":[]
             },
             "script":[
