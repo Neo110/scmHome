@@ -82,13 +82,13 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-start.bat"
+                "title": "nginx-start.sh"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-start.bat",
-                    "url":"https://scm.chusen.tech//search/script/shell/nginx-start.bat",
+                    "name":"nginx-start.sh",
+                    "url":"https://scm.chusen.tech//search/script/shell/nginx-start.sh",
                     "version":"v1.0.1",
                     "tags":["nginx","start"],
                     "absolutePath":"./app"
@@ -113,12 +113,12 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-stop.bat"
+                "title": "nginx-stop.sh"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-stop.bat",
+                    "name":"nginx-stop.sh",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","stop"],
@@ -133,12 +133,12 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-restart.bat"
+                "title": "nginx-restart.sh"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-restart.bat",
+                    "name":"nginx-restart.sh",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","restart"],
@@ -154,12 +154,12 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-status.bat"
+                "title": "nginx-status.sh"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-status.bat",
+                    "name":"nginx-status.sh",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-status.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","status"],
