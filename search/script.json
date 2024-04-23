@@ -82,13 +82,13 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-start.sh"
+                "title": "nginx-start.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-start.sh",
-                    "url":"https://scm.chusen.tech//search/script/shell/nginx-start.sh",
+                    "name":"nginx-start.bat",
+                    "url":"https://scm.chusen.tech//search/script/shell/nginx-start.bat",
                     "version":"v1.0.1",
                     "tags":["nginx","start"],
                     "absolutePath":"./app"
@@ -113,12 +113,12 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-stop.sh"
+                "title": "nginx-stop.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-stop.sh",
+                    "name":"nginx-stop.bat",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","stop"],
@@ -133,12 +133,12 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-restart.sh"
+                "title": "nginx-restart.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-restart.sh",
+                    "name":"nginx-restart.bat",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-stop.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","restart"],
@@ -154,12 +154,12 @@
         {
             "type": "script",
             "name": {
-                "title": "nginx-status.sh"
+                "title": "nginx-status.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"nginx-status.sh",
+                    "name":"nginx-status.bat",
                     "url":"https://scm.chusen.tech//search/script/bat/nginx-status.bat",
                     "version":"v1.0.0",
                     "tags":["nginx","status"],
@@ -176,13 +176,13 @@
         {
             "type": "script",
             "name": {
-                "title": "jk-start.sh"
+                "title": "jk-start.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"jk-start.sh",
-                    "url":"https://scm.chusen.tech//search/script/shell/jk-start.sh",
+                    "name":"jk-start.bat",
+                    "url":"https://scm.chusen.tech//search/script/shell/jk-start.bat",
                     "version":"v1.0.1",
                     "tags":["jk","start"],
                     "absolutePath":"./app"
@@ -207,12 +207,12 @@
         {
             "type": "script",
             "name": {
-                "title": "jk-stop.sh"
+                "title": "jk-stop.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"jk-stop.sh",
+                    "name":"jk-stop.bat",
                     "url":"https://scm.chusen.tech//search/script/bat/jk-stop.bat",
                     "version":"v1.0.0",
                     "tags":["jk","stop"],
@@ -227,12 +227,12 @@
         {
             "type": "script",
             "name": {
-                "title": "jk-restart.sh"
+                "title": "jk-restart.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"jk-restart.sh",
+                    "name":"jk-restart.bat",
                     "url":"https://scm.chusen.tech//search/script/bat/jk-stop.bat",
                     "version":"v1.0.0",
                     "tags":["jk","restart"],
@@ -248,12 +248,12 @@
         {
             "type": "script",
             "name": {
-                "title": "jk-status.sh"
+                "title": "jk-status.bat"
             },
             "email": "zsvc@163.com",
             "download":[
                 {
-                    "name":"jk-status.sh",
+                    "name":"jk-status.bat",
                     "url":"https://scm.chusen.tech//search/script/bat/jk-status.bat",
                     "version":"v1.0.0",
                     "tags":["jk","status"],
