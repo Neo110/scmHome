@@ -252,7 +252,7 @@
                 "color":"processing"
             }],
             "conf":{
-                "key":"crontab-windows",
+                "key":"sw-windows",
                 "name":"SW屏幕水印",
                 "status":"停止",
                 "tray":true,
@@ -355,7 +355,7 @@
                 "restartScript":"ssh-restart.bat",
                 "statusScript":"ssh-status.bat",
                 "conffile":[{"name":"ssh.conf","path":"./app/ssh/conf/ssh.conf"}],
-                "logfile":[{"name":"access.log","path":"./app/ssh/logs/access.log"},{"name":"error.log","path":"./app/ssh/logs/error.log"}]
+                "logfile":[]
             },
             "script":[
                 {
@@ -443,8 +443,8 @@
                 "stopScript":"crontab-stop.bat",
                 "restartScript":"crontab-restart.bat",
                 "statusScript":"crontab-status.bat",
-                "conffile":[{"name":"config.ini","path":"./app/crontab/config.ini"}],
-                "logfile":[{"name":"crontab.log","path":"./app/crontab/scm-crontab.log"}]
+                "conffile":[{"name":"crontab","path":"./app/crontab/crontab"}],
+                "logfile":[{"name":"scm-crontab.log","path":"./app/crontab/scm-crontab.log"}]
             },
             "script":[
                 {
