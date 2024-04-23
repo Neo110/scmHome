@@ -220,7 +220,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/shell.svg"
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "description":"停止jk服务"
         },
@@ -240,7 +240,7 @@
                 }
             ],
             "picture": {
-                "large": "https://scm.chusen.tech//search/img/shell.svg"
+                "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
             "description":"重启jk服务"
