@@ -71,7 +71,7 @@
       ]
     },
     {
-      "os": "Other",
+      "os": "other",
       "list": [
         {
           "label": "v1.xx全部版本",

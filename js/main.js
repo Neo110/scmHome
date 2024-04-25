@@ -356,7 +356,7 @@
                 // // document.getElementById("content").style.display = "block";
   
                 for(var osIndex =0 ; data.packages.length ; osIndex++){
-                    packagesOther = "";
+                    var packagesOther = "";
                     var osType  = data.packages[osIndex].os;
                     var listLinux = data.packages[osIndex].list;
                     console.log(" listLinux", listLinux.length);
