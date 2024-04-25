@@ -315,85 +315,86 @@
                 // 解析packages 生成 table
                  
              
-                var list = data.packages[0].list;
-                console.log(" list", list.length);
+                // var list = data.packages[0].list;
+                // console.log(" list", list.length);
                 
-                for (var i = 0; i < list.length; i++) {
-                    packagesHtml += "<tr>";
-                    packagesHtml += "<th scope='row'>";
-                    packagesHtml += "  <button type='button'  url='" + list[i].url + "' class='link-button btn btn-sm btn-secondary btn-icon rounded-pill'>";
-                    packagesHtml += "    <span class='btn-inner--icon'><i class='far fa-download'></i></span>";
-                    packagesHtml += "    <span class='btn-inner--text'>Download</span>";
-                    packagesHtml += "  </button>";
-                    packagesHtml += "</th>";
-                    packagesHtml += " <td class='order'>";
-                    packagesHtml += "  <span class='h6 text-sm font-weight-bold mb-0'>" + list[i].label + "</span>";
-                    packagesHtml += "  <span class='d-block text-sm text-muted text-label'>" + list[i].subLabel + "</span>";
-                    packagesHtml += " </td>";
-                    //   packagesHtml += " <td>";
-                    //   packagesHtml += "  <span class='client'>"+list[i].version+"</span>";
-                    //   packagesHtml += "</td>";
-                    packagesHtml += "<td>";
-                    packagesHtml += "  <span class='taxes text-sm mb-0 text-label'>" + list[i].description + "</span>";
-                    packagesHtml += "</td> ";
-                    packagesHtml += "</tr>  "
-                    if(i != list.length)
-                    packagesHtml += "<tr class='table-divider'></tr>";
-                }
+                // for (var i = 0; i < list.length; i++) {
+                //     packagesHtml += "<tr>";
+                //     packagesHtml += "<th scope='row'>";
+                //     packagesHtml += "  <button type='button'  url='" + list[i].url + "' class='link-button btn btn-sm btn-secondary btn-icon rounded-pill'>";
+                //     packagesHtml += "    <span class='btn-inner--icon'><i class='far fa-download'></i></span>";
+                //     packagesHtml += "    <span class='btn-inner--text'>Download</span>";
+                //     packagesHtml += "  </button>";
+                //     packagesHtml += "</th>";
+                //     packagesHtml += " <td class='order'>";
+                //     packagesHtml += "  <span class='h6 text-sm font-weight-bold mb-0'>" + list[i].label + "</span>";
+                //     packagesHtml += "  <span class='d-block text-sm text-muted text-label'>" + list[i].subLabel + "</span>";
+                //     packagesHtml += " </td>";
+                //     //   packagesHtml += " <td>";
+                //     //   packagesHtml += "  <span class='client'>"+list[i].version+"</span>";
+                //     //   packagesHtml += "</td>";
+                //     packagesHtml += "<td>";
+                //     packagesHtml += "  <span class='taxes text-sm mb-0 text-label'>" + list[i].description + "</span>";
+                //     packagesHtml += "</td> ";
+                //     packagesHtml += "</tr>  "
+                //     if(i != list.length)
+                //     packagesHtml += "<tr class='table-divider'></tr>";
+                // }
            
-                // 将packagesHtml 替换到界面中通过id
-                document.getElementById("packages").innerHTML = packagesHtml;
-                //添加link-button 点击后没有触发事件？
-                on('click', '.link-button', function (e) {
-                    //   点击对应连接进行下载
-                    var url = this.getAttribute('url');
-                    // url 弹出心窗口下载
-                    window.open(url);
-                }, true);
+                // // 将packagesHtml 替换到界面中通过id
+                // document.getElementById("packages").innerHTML = packagesHtml;
+                // //添加link-button 点击后没有触发事件？
+                // on('click', '.link-button', function (e) {
+                //     //   点击对应连接进行下载
+                //     var url = this.getAttribute('url');
+                //     // url 弹出心窗口下载
+                //     window.open(url);
+                // }, true);
 
-                // document.getElementById("loading-container").style.display = "none";
-                // // Show the content
-                // document.getElementById("content").style.display = "block";
+                // // document.getElementById("loading-container").style.display = "none";
+                // // // Show the content
+                // // document.getElementById("content").style.display = "block";
   
+                for(var osIndex =0 ; data.packages.length ; osIndex++){
+                    packagesOther = "";
+                    var osType  = data.packages[osIndex].os;
+                    var listLinux = data.packages[osIndex].list;
+                    console.log(" listLinux", listLinux.length);
+                    
+                    for (var i = 0; i < listLinux.length; i++) {
+                        packagesOther += "<tr>";
+                        packagesOther += "<th scope='row'>";
+                        packagesOther += "  <button type='button'  url='" + listLinux[i].url + "' class='link-button btn btn-sm btn-secondary btn-icon rounded-pill'>";
+                        packagesOther += "    <span class='btn-inner--icon'><i class='far fa-download'></i></span>";
+                        packagesOther += "    <span class='btn-inner--text'>Download</span>";
+                        packagesOther += "  </button>";
+                        packagesOther += "</th>";
+                        packagesOther += " <td class='order'>";
+                        packagesOther += "  <span class='h6 text-sm font-weight-bold mb-0'>" + listLinux[i].label + "</span>";
+                        packagesOther += "  <span class='d-block text-sm text-muted text-label'>" + listLinux[i].subLabel + "</span>";
+                        packagesOther += " </td>";
+                        //   packagesHtml += " <td>";
+                        //   packagesHtml += "  <span class='client'>"+list[i].version+"</span>";
+                        //   packagesHtml += "</td>";
+                        packagesOther += "<td>";
+                        packagesOther += "  <span class='taxes text-sm mb-0 text-label'>" + listLinux[i].description + "</span>";
+                        packagesOther += "</td> ";
+                        packagesOther += "</tr>  "
+                        if(i != listLinux.length)
+                        packagesOther += "<tr class='table-divider'></tr>";
+                    }
+            
+                    // 将packagesOther 替换到界面中通过id
+                    document.getElementById("packages-"+osType).innerHTML = packagesOther;
 
-                packagesHtml = "";
-                var listLinux = data.packages[1].list;
-                console.log(" listLinux", listLinux.length);
-                
-                for (var i = 0; i < listLinux.length; i++) {
-                    packagesHtml += "<tr>";
-                    packagesHtml += "<th scope='row'>";
-                    packagesHtml += "  <button type='button'  url='" + listLinux[i].url + "' class='link-button btn btn-sm btn-secondary btn-icon rounded-pill'>";
-                    packagesHtml += "    <span class='btn-inner--icon'><i class='far fa-download'></i></span>";
-                    packagesHtml += "    <span class='btn-inner--text'>Download</span>";
-                    packagesHtml += "  </button>";
-                    packagesHtml += "</th>";
-                    packagesHtml += " <td class='order'>";
-                    packagesHtml += "  <span class='h6 text-sm font-weight-bold mb-0'>" + listLinux[i].label + "</span>";
-                    packagesHtml += "  <span class='d-block text-sm text-muted text-label'>" + listLinux[i].subLabel + "</span>";
-                    packagesHtml += " </td>";
-                    //   packagesHtml += " <td>";
-                    //   packagesHtml += "  <span class='client'>"+list[i].version+"</span>";
-                    //   packagesHtml += "</td>";
-                    packagesHtml += "<td>";
-                    packagesHtml += "  <span class='taxes text-sm mb-0 text-label'>" + listLinux[i].description + "</span>";
-                    packagesHtml += "</td> ";
-                    packagesHtml += "</tr>  "
-                    if(i != listLinux.length)
-                    packagesHtml += "<tr class='table-divider'></tr>";
+                    //添加link-button 点击后没有触发事件？
+                    on('click', '.link-button', function (e) {
+                        //   点击对应连接进行下载
+                        var url = this.getAttribute('url');
+                        // url 弹出心窗口下载
+                        window.open(url);
+                    }, true);
                 }
-           
-                // 将packagesHtml 替换到界面中通过id
-                document.getElementById("packages-linux").innerHTML = packagesHtml;
-
-                //添加link-button 点击后没有触发事件？
-                on('click', '.link-button', function (e) {
-                    //   点击对应连接进行下载
-                    var url = this.getAttribute('url');
-                    // url 弹出心窗口下载
-                    window.open(url);
-                }, true);
-
                 document.getElementById("loading-container").style.display = "none";
                 // Show the content
                 document.getElementById("content").style.display = "block";
