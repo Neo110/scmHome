@@ -41,13 +41,19 @@
       "os": "windows",
       "list": [
         {
-          "label": "v2.xx全部版本",
+          "label": "v2.xx全部版本-github仓库",
+          "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
+          "description": "全部版本",
+          "url": "https://github.com/Neo110/SCM/releases"
+        },
+        {
+          "label": "v2.xx全部版本-百度网盘",
           "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
           "description": "全部版本",
           "url": "https://pan.baidu.com/s/1watzxNlaq75l76Nzin6vhg?pwd=p2pb"
         },
         {
-          "label": "v1.xx全部版本",
+          "label": "v1.xx全部版本-百度网盘",
           "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
           "description": "全部版本",
           "url": "https://pan.baidu.com/s/1RKxpnaZcQ1ferpgDEm9x_g?pwd=4ox1"
@@ -58,7 +64,13 @@
       "os": "macos",
       "list": [
         {
-          "label": "v2.xx全部版本",
+          "label": "v2.xx全部版本-github仓库",
+          "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
+          "description": "全部版本",
+          "url": "https://github.com/Neo110/SCM/releases"
+        },
+        {
+          "label": "v2.xx全部版本-百度网盘",
           "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
           "description": "全部版本",
           "url": "https://pan.baidu.com/s/1LS6ulktq0ZsIN1r7gtIVow?pwd=cspg"
@@ -69,7 +81,13 @@
       "os": "linux",
       "list": [
         {
-          "label": "v2.xx全部版本",
+          "label": "v2.xx全部版本-github仓库",
+          "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
+          "description": "全部版本",
+          "url": "https://github.com/Neo110/SCM/releases"
+        },
+        {
+          "label": "v2.xx全部版本-百度网盘",
           "subLabel": "包含nginx服务，其他服务需要自定义手动，扩展打包。具体参考文档-使用-自定义服务",
           "description": "全部版本",
           "url": "https://pan.baidu.com/s/1RM5z7cp_awIlHR0udS4Z2A?pwd=nrxn"
