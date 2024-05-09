@@ -3,7 +3,7 @@
         {
             "gender": "Nginx",
             "name": {
-                "title": "Nginx 1.25.4 - Windows"
+                "title": "Nginx - Windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
@@ -89,7 +89,7 @@
         {
             "gender": "Redis",
             "name": {
-                "title": "Redis 1.25.4 - Windows"
+                "title": "Redis - Windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
@@ -307,7 +307,7 @@
         {
             "gender": "OpenSSH",
             "name": {
-                "title": "OpenSSH 1.25.4 - Windows"
+                "title": "OpenSSH - Windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
@@ -396,7 +396,7 @@
         {
             "gender": "Crontab",
             "name": {
-                "title": "Crontab 1.25.4 - Windows"
+                "title": "Crontab 1.0.0 - Windows"
             },
             "email": "rayina.pochinok@example.com",
             "download":[
