@@ -1,7 +1,7 @@
 {
   "name": "scm服务管理工具",
   "about": "create by chusen.tech",
-  "version": "v2.0.5",
+  "version": "v2.0.6",
   "showNewServices": true,
   "versions": [
     {
