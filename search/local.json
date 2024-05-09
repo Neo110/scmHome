@@ -1223,6 +1223,81 @@
                 }
             ],
             "description":"Minio是一款轻量级的资源服务器。"
+        },
+        {
+            "gender": "TabbyAI",
+            "name": {
+                "title": "构建中-TabbyAI - windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/service.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "color":"green"
+            },{
+                "name":"windows平台",
+                "color":"cyan"
+            },{
+                "name":"内容:免费",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"tabbyAI-windows",
+                "name":"TabbyAI",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"tabbyAI-start.sh",
+                "stopScript":"tabbyAI-stop.sh",
+                "restartScript":"tabbyAI-restart.sh",
+                "statusScript":"tabbyAI-status.sh",
+                "conffile":[{"name":"tabbyAI.conf","path":"./app/tabbyAI/conf/nginx.conf"}],
+                "logfile":[{"name":"access.log","path":"./app/tabbyAI/logs/access.log"},
+                        {"name":"error.log","path":"./app/tabbyAI/logs/error.log"}]
+            },
+            "script":[
+                {
+                    "key":"tabbyAI-start.sh",
+                    "name":"tabbyAI-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"tabbyAI-stop.sh",
+                    "name":"tabbyAI-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"tabbyAI-restart.sh",
+                    "name":"tabbyAI-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"tabbyAI-status.sh",
+                    "name":"tabbyAI-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"TabbyAI本地化部署大模型AI开发助手。支持VSCode,Idea编辑器。"
         }
     ]
 }
