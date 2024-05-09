@@ -1244,6 +1244,10 @@
             },{
                 "name":"内容:免费",
                 "color":"processing"
+            },
+            {
+                "name":"AI大模型",
+                "color":"processing"
             }],
             "conf":{
                 "key":"tabbyAI-windows",
