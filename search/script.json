@@ -22,13 +22,8 @@
             },
             "nat": "UA",
             "tags":[{
-                "name":"官网",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
+                "name":"windows",
                 "color":"#2db7f5"
-            },{
-                "name":"开发者:未知",
-                "url":"https://scm.chusen.tech//search/tag/nginx",
-                "color":"#1677ff"
             }],
             "caution":"请确保nginx已经安装",
             "description":"启动nginx服务"
@@ -51,6 +46,10 @@
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
+            "tags":[{
+                "name":"windows",
+                "color":"#2db7f5"
+            }],
             "description":"停止nginx服务"
         },
         {
@@ -63,6 +62,10 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
+            "tags":[{
+                "name":"windows",
+                "color":"#2db7f5"
+            }],
             "description":"重启nginx服务"
         },
         {
@@ -75,6 +78,10 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
+            "tags":[{
+                "name":"windows",
+                "color":"#2db7f5"
+            }],
             "description":"状态nginx服务"
         },
 
