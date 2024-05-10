@@ -192,8 +192,8 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "UA",
-            "caution":"请确保jk已经安装",
-            "description":"启动jk服务"
+            "caution":"请确保jenksin已经安装",
+            "description":"windows jenkins 启动子节点脚本"
         },
         {
             "type": "script",
@@ -213,7 +213,8 @@
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
-            "description":"停止jk服务"
+            "caution":"请确保jenksin已经安装",
+            "description":"windows jenkins 启动子节点脚本"
         },
         {
             "type": "script",
@@ -234,7 +235,8 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
-            "description":"状态jk服务"
+            "caution":"请确保jenksin已经安装",
+            "description":"windows jenkins 启动子节点脚本"
         }
     ]
 }
