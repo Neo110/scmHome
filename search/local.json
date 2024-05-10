@@ -1371,6 +1371,81 @@
                 }
             ],
             "description":"TabbyAI本地化部署大模型AI开发助手。支持VSCode,Idea编辑器。"
+        },
+        {
+            "gender": "Containerd",
+            "name": {
+                "title": "构建中-Containerd - windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/service.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "color":"green"
+            },{
+                "name":"windows平台",
+                "color":"cyan"
+            },
+            {
+                "name":"容器服务",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"containerd-windows",
+                "name":"Containerd",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.7.16",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"containerd-start.sh",
+                "stopScript":"containerd-stop.sh",
+                "restartScript":"containerd-restart.sh",
+                "statusScript":"containerd-status.sh",
+                "conffile":[],
+                "logfile":[]
+            },
+            "script":[
+                {
+                    "key":"containerd-start.sh",
+                    "name":"containerd-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"containerd-stop.sh",
+                    "name":"containerd-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"containerd-restart.sh",
+                    "name":"containerd-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"containerd-status.sh",
+                    "name":"containerd-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"Containerd提供了完整的容器生命周期管理，包括镜像传输、存储、容器执行、存储和网络管理等。此外，它还支持多种容器运行时接口，如OCI和CRI。"
         }
     ]
 }
