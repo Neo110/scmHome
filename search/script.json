@@ -192,7 +192,6 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "UA",
-            "caution":"请确保jenksin已经安装",
             "description":"windows jenkins 启动子节点脚本"
         },
         {
@@ -213,7 +212,6 @@
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
-            "caution":"请确保jenksin已经安装",
             "description":"windows jenkins 启动子节点脚本"
         },
         {
@@ -235,7 +233,6 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
-            "caution":"请确保jenksin已经安装",
             "description":"windows jenkins 启动子节点脚本"
         }
     ]
