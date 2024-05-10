@@ -192,6 +192,13 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "UA",
+            "tags":[{
+                "name":"windows",
+                "color":"#2db7f5"
+            },{
+                "name":"jenkins",
+                "color":"#1677ff"
+            }],
             "description":"jenkins子节点脚本"
         },
         {
@@ -212,6 +219,13 @@
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
+            "tags":[{
+                "name":"windows",
+                "color":"#2db7f5"
+            },{
+                "name":"jenkins",
+                "color":"#1677ff"
+            }],
             "description":"jenkins子节点脚本"
         },
         {
@@ -233,6 +247,13 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
+            "tags":[{
+                "name":"windows",
+                "color":"#2db7f5"
+            },{
+                "name":"jenkins",
+                "color":"#1677ff"
+            }],
             "description":"jenkins子节点脚本"
         }
     ]
