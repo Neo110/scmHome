@@ -192,7 +192,7 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "UA",
-            "description":"windows jenkins 启动子节点脚本"
+            "description":"jenkins子节点脚本"
         },
         {
             "type": "script",
@@ -212,7 +212,7 @@
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
-            "description":"windows jenkins 启动子节点脚本"
+            "description":"jenkins子节点脚本"
         },
         {
             "type": "script",
@@ -233,7 +233,7 @@
                 "large": "https://scm.chusen.tech//search/img/powershell.svg"
             },
             "nat": "FR",
-            "description":"windows jenkins 启动子节点脚本"
+            "description":"jenkins子节点脚本"
         }
     ]
 }
