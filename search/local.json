@@ -1224,6 +1224,75 @@
             ],
             "description":"Minio是一款轻量级的资源服务器。"
         },
+
+        {
+            "gender": "Jenkins-anget",
+            "name": {
+                "title": "Jenkins-anget - windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/service.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "color":"green"
+            },{
+                "name":"windows平台",
+                "color":"cyan"
+            },
+            {
+                "name":"Jenkins",
+                "color":"processing"
+            }],
+            "conf":{
+                "key":"Jenkins-anget",
+                "name":"Jenkins-anget",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.4.2",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"jk-start.sh",
+                "stopScript":"jk-stop.sh",
+                "restartScript":"",
+                "statusScript":"jk-status.sh",
+                "conffile":[],
+                "logfile":[]
+            },
+            "script":[
+                {
+                    "key":"jk-start.sh",
+                    "name":"jk-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"jk-stop.sh",
+                    "name":"jk-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"jk-status.sh",
+                    "name":"jk-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"Jenkins anget 启动守护服务。配置后开机自启动连接jenken服务器"
+        },
+
         {
             "gender": "TabbyAI",
             "name": {
