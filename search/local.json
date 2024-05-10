@@ -1290,7 +1290,7 @@
                     "absolutePath":"./app/"
                 }
             ],
-            "description":"Jenkins anget 启动守护服务。配置后开机自启动连接jenken服务器"
+            "description":"Jenkins anget 启动守护服务。配置后开机自启动连接jenken服务器，默认启动c:/jk-katalon/launch.bat，launch.bat内容从jenkins节点配置中获取请求命令"
         },
 
         {
