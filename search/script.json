@@ -214,6 +214,7 @@
                 "name":"jenkins",
                 "color":"#1677ff"
             }],
+            "caution":"请确保jenkins已经安装,并且配置构建节点",
             "description":"jenkins子节点脚本"
         },
         {
