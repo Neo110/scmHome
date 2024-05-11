@@ -1293,6 +1293,192 @@
             "description":"Jenkins anget 启动守护服务。配置后开机自启动连接jenken服务器，默认启动c:/jk-katalon/launch.bat，launch.bat内容从jenkins节点配置中获取请求命令"
         },
 
+
+        {
+            "gender": "frps",
+            "name": {
+                "title": "frps - windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name": "frps-windows-v0.58.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/frps-windows/frps-windows-v0.58.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "frps",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "frps-windows-v0.58.0.z0.002",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/frps-windows/frps-windows-v0.58.0.z0.002",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "frps",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/service.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "color":"green"
+            },{
+                "name":"windows平台",
+                "color":"cyan"
+            }],
+            "conf":{
+                "key":"frps-windows",
+                "name":"frps",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.7.16",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"frps-start.sh",
+                "stopScript":"frps-stop.sh",
+                "restartScript":"frps-restart.sh",
+                "statusScript":"frps-status.sh",
+                "conffile":[{"name":"frps.toml","path":"./app/frps/frps.toml"}],
+                "logfile":[]
+            },
+            "script":[
+                {
+                    "key":"frps-start.sh",
+                    "name":"frps-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"frps-stop.sh",
+                    "name":"frps-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"frps-restart.sh",
+                    "name":"frps-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"frps-status.sh",
+                    "name":"frps-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"frps内网穿透服务器"
+        },
+        {
+            "gender": "frpc",
+            "name": {
+                "title": "frpc - windows"
+            },
+            "email": "rayina.pochinok@example.com",
+            "download":[
+                {
+                    "name": "frpc-windows-v0.58.0.z0.001",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/frpc-windows/frpc-windows-v0.58.0.z0.001",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "frpc",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                },
+                {
+                    "name": "frpc-windows-v0.58.0.z0.002",
+                    "url": "https://slink.ltd/https://github.com/Neo110/scmHome/releases/download/frpc-windows/frpc-windows-v0.58.0.z0.002",
+                    "version": "v1.0.0",
+                    "tags": [
+                        "frpc",
+                        "windows"
+                    ],
+                    "absolutePath": "./app"
+                }
+            ],
+            "picture": {
+                "large": "https://scm.chusen.tech//search/img/service.svg"
+            },
+            "nat": "UA",
+            "tags":[{
+                "name":"官网",
+                "color":"green"
+            },{
+                "name":"windows平台",
+                "color":"cyan"
+            }],
+            "conf":{
+                "key":"frpc-windows",
+                "name":"frpc",
+                "status":"停止",
+                "tray":true,
+                "startSort":1,
+                "tags":[],
+                "version":"v1.7.16",
+                "icon":"https://scm.chusen.tech//search/img/service.svg",
+                "content":"",
+                "startScript":"frpc-start.sh",
+                "stopScript":"frpc-stop.sh",
+                "restartScript":"frpc-restart.sh",
+                "statusScript":"frpc-status.sh",
+                "conffile":[{"name":"frpc.toml","path":"./app/frpc/frpc.toml"}],
+                "logfile":[]
+            },
+            "script":[
+                {
+                    "key":"frpc-start.sh",
+                    "name":"frpc-start.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"frpc-stop.sh",
+                    "name":"frpc-stop.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"frpc-restart.sh",
+                    "name":"frpc-restart.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                },
+                {
+                    "key":"frpc-status.sh",
+                    "name":"frpc-status.sh",
+                    "icon":"https://scm.chusen.tech//search/img/powershell.svg",
+                    "tags": ["bat"],
+                    "version":"v1.0.0",
+                    "absolutePath":"./app/"
+                }
+            ],
+            "description":"frpc内网穿透客户端"
+        },
+
         {
             "gender": "TabbyAI",
             "name": {
