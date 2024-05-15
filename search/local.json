@@ -5,7 +5,7 @@
             "name": {
                 "title": "Nginx - Windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "nginx-windows-v1.0.0.z0.001",
@@ -91,7 +91,7 @@
             "name": {
                 "title": "Redis - Windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "redis-windows-v1.0.0.z0.001",
@@ -180,7 +180,7 @@
             "name": {
                 "title": "SW屏幕水印 1.0.1 - Windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download": [
                 {
                     "name": "sw-windows-v1.0.0.z0.001",
@@ -309,7 +309,7 @@
             "name": {
                 "title": "OpenSSH - Windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "ssh-windows-v1.0.0.z0.001",
@@ -398,7 +398,7 @@
             "name": {
                 "title": "Crontab 1.0.0 - Windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "crontab-wondows-v1.0.1.z0.001",
@@ -1108,12 +1108,13 @@
             ],
             "description":"JDK是Java Development Kit 的缩写，是Sun Microsystems针对Java开发员的产品。"
         },
+        
         {
             "gender": "Minio",
             "name": {
                 "title": "Minio - windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "minio-windows-v1.0.0.z0.001",
@@ -1230,7 +1231,7 @@
             "name": {
                 "title": "Jenkins-anget - windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[],
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/service.svg"
@@ -1299,7 +1300,7 @@
             "name": {
                 "title": "frps - windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "frps-windows-v0.58.0.z0.001",
@@ -1391,7 +1392,7 @@
             "name": {
                 "title": "frpc - windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[
                 {
                     "name": "frpc-windows-v0.58.0.z0.001",
@@ -1484,7 +1485,7 @@
             "name": {
                 "title": "构建中-TabbyAI - windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[],
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/service.svg"
@@ -1563,7 +1564,7 @@
             "name": {
                 "title": "构建中-Containerd - windows"
             },
-            "email": "rayina.pochinok@example.com",
+            "email": "zsvc@163.com",
             "download":[],
             "picture": {
                 "large": "https://scm.chusen.tech//search/img/service.svg"
