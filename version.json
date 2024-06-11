@@ -1,12 +1,12 @@
 {
   "name": "scm服务管理工具",
   "about": "create by chusen.tech",
-  "version": "v2.1.0",
+  "version": "v2.1.1",
   "showNewServices": true,
   "upgrade":{
-    "macos":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/scm-2.1.0/scm_2.1.0.dmg",
-    "windows":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/scm-2.1.0/scm_2.1.0.exe",
-    "linux":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/scm-2.1.0/scm-2.1.0.AppImage"
+    "macos":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/scm-2.1.1/scm_2.1.1.dmg",
+    "windows":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/scm-2.1.1/scm_2.1.1.exe",
+    "linux":"https://slink.ltd/https://github.com/Neo110/SCM/releases/download/scm-2.1.1/scm-2.1.1.AppImage"
   },
   "versions": [
     {
